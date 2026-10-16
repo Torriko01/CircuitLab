@@ -1,0 +1,50 @@
+{
+  "version": "0.3",
+  "at": "2026-10-15T02:16:15.637Z",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15",
+  "results": [
+    {
+      "lesson": "mosfet",
+      "variant": 0,
+      "insufficientRejected": true,
+      "score": 8,
+      "metrics": "实际 VGS\n3.3 V\nGATE − SOURCE\nMOSFET 漏源压降\n0.1356 V\n与路径压降一起定位\n沟道直流功耗\n0.0159 W\nVDS × ILOAD；不推导温升"
+    },
+    {
+      "lesson": "mosfet",
+      "variant": 1,
+      "insufficientRejected": true,
+      "score": 8,
+      "metrics": "实际 VGS\n3.3 V\nGATE − SOURCE\nMOSFET 漏源压降\n0.1356 V\n与路径压降一起定位\n沟道直流功耗\n0.0159 W\nVDS × ILOAD；不推导温升"
+    },
+    {
+      "lesson": "flyback",
+      "variant": 0,
+      "insufficientRejected": true,
+      "score": 8,
+      "metrics": "SW 窗口峰值\n12.5904 V\n相对 GND 的开关电压\n电流降至 10% 时间\n396.49 µs\n自首个完整断开步起算\n关断前储能\n0.1394 mJ\n½LI²；不代表器件允许能量"
+    },
+    {
+      "lesson": "flyback",
+      "variant": 1,
+      "insufficientRejected": true,
+      "score": 8,
+      "metrics": "SW 窗口峰值\n12.5904 V\n相对 GND 的开关电压\n电流降至 10% 时间\n396.49 µs\n自首个完整断开步起算\n关断前储能\n0.1394 mJ\n½LI²；不代表器件允许能量"
+    },
+    {
+      "lesson": "pcb",
+      "variant": 0,
+      "insufficientRejected": true,
+      "score": 8,
+      "metrics": "本地传感器信号\n1.65 V\nSIG − SGND @250 µs\n参考地偏移\n0.119 V\nSGND − GND @250 µs\nMCU 端看到的电压\n1.769 V\n两项电压差相加 @250 µs"
+    },
+    {
+      "lesson": "pcb",
+      "variant": 1,
+      "insufficientRejected": true,
+      "score": 8,
+      "metrics": "本地传感器信号\n1.65 V\nSIG − SGND @250 µs\n参考地偏移\n0.119 V\nSGND − GND @250 µs\nMCU 端看到的电压\n1.769 V\n两项电压差相加 @250 µs"
+    }
+  ],
+  "pageErrors": []
+}

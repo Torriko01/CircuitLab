@@ -1,0 +1,45 @@
+{
+  "version": "0.3.0",
+  "createdAt": "2026-10-15T02:20:01.876891+00:00",
+  "archive": "电路直觉实验室-MVP-0.3.zip",
+  "bytes": 5074690,
+  "sha256": "ee8a7294a96236de4927bbe71b00ec53ae94f8a57d2851bb96bfefd116f0888f",
+  "files": 927,
+  "crcPassed": true,
+  "engineRevision": "8ee04b18a6c9241675f1c4f766617806c2fe148d",
+  "verification": {
+    "captures": 638,
+    "checks": 2437,
+    "passed": 2437,
+    "unitTests": 27,
+    "chromiumVariants": 6,
+    "webkitVariants": 6,
+    "productionChecks": 19
+  },
+  "sourceHashes": {
+    "src/App.tsx": "a8f303b58807847b5a25205bb489b6733bdbc462fd545b84729124b207853c33",
+    "src/Chart.tsx": "2c6b99cd57a3ad4e7a39d4bf99603713f9719099735ee05d3a06968cafea6066",
+    "src/StagePanels.tsx": "eeb799ac6b04dcf68e4e1a74865a380e55f42b71ebcfa06a9bea442613261c3c",
+    "src/content.ts": "bfe7d0a751ab5de9f03ea6b7a63bcea09da9ec52194f012724197ff339e1904c",
+    "src/engineering.ts": "bda74e290c647f1fafa8f64c4c7144a6ebfab5c2dc6fa0f1c6e021001a2bdb8a",
+    "src/extensionContent.ts": "c3b0d93fe1207498dd7e8644e8bcac5971cc14711ddc4c70aaf8aac3f4d8f96e",
+    "src/lessonConfig.ts": "b90bddc51181ff45af6a8404249b4cc781b6ed0d62d1f69cfbfe0635ff98e1c2",
+    "src/main.tsx": "1411490ded30f203ea8d24183d9adf5c734984f1d6df8934f7fde5c56745eab5",
+    "src/measurement.ts": "8648cb4237556a336b5bd2e75ce5d6bcac1344e895862d33e80665183a4135e1",
+    "src/simulation/adapter.ts": "dea8a12da36f7e21ce29e41aa8afa69a14b3b4d8a38d031fc738700c70258ce3",
+    "src/simulation/extensionVerification.ts": "402763a61996fe20a8ae3b74c977cd492d8434e6f7760083dde51a721a92d973",
+    "src/simulation/stageVerification.ts": "10127b055e754405b44728a3cd8ac407491a2fdbc4b1fe2dd95bfa5a4e9e49ec",
+    "src/simulation/stages.ts": "5ef7ddaaeac14a3f33695c11f3126106149ec4d119b450cc9ae1f3e81762daa8",
+    "src/simulation/templates.ts": "a8ac1453d62cd4ace8eaf5d2a79a9fe8cd11c12a293b26c4d629a5a1c1a4574e",
+    "src/simulation/verification.ts": "1bd71d77eda3d4aff01363edcebdebe4d77515f79a09e3c73e9ca8ddf9b42d61",
+    "src/stageContent.ts": "5e2c20c29fc14d4f589cbadcac6341561f23add9e09c03804939f2248e1b9f31",
+    "src/store.ts": "fdab80ad832fbb95f1da54574568686d43f705a99dc8ddd047a9378f43cf8a29",
+    "src/style.css": "29bd66d51bb3e748cf6271a27a7cf61a8422f35ce5fd84b35ce10e93833f89dd",
+    "src/types.ts": "3bf0c4079eedb7485d49ce8e5b4732ec81cfc8e96d69134cbe196dfdcc327a99"
+  },
+  "buildHashes": {
+    "dist/assets/index-DAN8Oc_X.css": "45cee9093305d334ac1d63a909471ba7aebc3a89e2f43dc53f2a69c67d102702",
+    "dist/assets/index-DUWGmIJ5.js": "9e6f23e74416875a608ffd6d06fb77ed41af2127998e96a83575bab073d15653",
+    "dist/index.html": "c4f17d90a7560d777e4167af3fbcfb4962f4b8f09a498aa357ed06b1ad3125e9"
+  }
+}

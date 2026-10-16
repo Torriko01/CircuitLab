@@ -1,0 +1,86 @@
+{
+  "version": "0.3",
+  "at": "2026-10-15T02:17:25.400Z",
+  "url": "http://127.0.0.1:4174/",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "checks": [
+    {
+      "name": "schema-2 migration preserves old progress and backup",
+      "passed": true
+    },
+    {
+      "name": "invalid import preserves data",
+      "passed": true
+    },
+    {
+      "name": "schema-3 roundtrip",
+      "passed": true
+    },
+    {
+      "name": "MOSFET default VDS",
+      "passed": true
+    },
+    {
+      "name": "MOSFET source reference changes VGS",
+      "passed": true
+    },
+    {
+      "name": "high clamp peak",
+      "passed": true
+    },
+    {
+      "name": "separate current trace",
+      "passed": true
+    },
+    {
+      "name": "shared return offset",
+      "passed": true
+    },
+    {
+      "name": "dedicated reference removes model offset",
+      "passed": true
+    },
+    {
+      "name": "independent local sensor injection remains",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 1280",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 1440",
+      "passed": true
+    },
+    {
+      "name": "playback works",
+      "passed": true
+    },
+    {
+      "name": "storage failure stays usable",
+      "passed": true
+    },
+    {
+      "name": "memory export available",
+      "passed": true
+    },
+    {
+      "name": "storage recovers",
+      "passed": true
+    },
+    {
+      "name": "nine course cards",
+      "passed": true
+    },
+    {
+      "name": "no external runtime requests",
+      "passed": true
+    },
+    {
+      "name": "no page errors",
+      "passed": true
+    }
+  ],
+  "outside": [],
+  "pageErrors": []
+}

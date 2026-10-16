@@ -1,0 +1,109 @@
+{
+  "version": "0.5",
+  "at": "2026-10-15T12:11:51.210Z",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "checks": [
+    {
+      "name": "mouse draws complete circuit",
+      "pass": true,
+      "detail": {
+        "running": false,
+        "time": 0,
+        "error": "",
+        "needsReset": true,
+        "message": "电气设计已修改 · 请重新开始",
+        "elements": 5,
+        "scopes": 0,
+        "runId": "a503a80b-b60d-439c-a66d-3455509dc719",
+        "designRevision": 8,
+        "stimulusCount": 0
+      }
+    },
+    {
+      "name": "hand-wired divider voltage and current",
+      "pass": true,
+      "detail": [
+        {
+          "type": "DCVoltageElm",
+          "voltage": 3.3,
+          "current": 0.000165
+        },
+        {
+          "type": "ResistorElm",
+          "voltage": 1.65,
+          "current": 0.000165
+        },
+        {
+          "type": "ResistorElm",
+          "voltage": 1.65,
+          "current": 0.000165
+        },
+        {
+          "type": "WireElm",
+          "voltage": 0,
+          "current": 0.000165
+        },
+        {
+          "type": "GroundElm",
+          "voltage": 0,
+          "current": 0
+        }
+      ]
+    },
+    {
+      "name": "pause continue keeps run identity and time",
+      "pass": true,
+      "detail": {
+        "before": {
+          "running": false,
+          "time": 0.0018800000000000043,
+          "error": "",
+          "needsReset": false,
+          "message": "已按初始条件重新开始",
+          "elements": 5,
+          "scopes": 0,
+          "runId": "420ea0e8-b6dc-4db0-9a2f-95b32bbb6d7a",
+          "designRevision": 8,
+          "stimulusCount": 0
+        },
+        "after": {
+          "running": false,
+          "time": 0.002700000000000006,
+          "error": "",
+          "needsReset": false,
+          "message": "已按初始条件重新开始",
+          "elements": 5,
+          "scopes": 0,
+          "runId": "420ea0e8-b6dc-4db0-9a2f-95b32bbb6d7a",
+          "designRevision": 8,
+          "stimulusCount": 0
+        }
+      }
+    },
+    {
+      "name": "refresh restores design and notes paused",
+      "pass": true,
+      "detail": {
+        "running": false,
+        "time": 0,
+        "error": "",
+        "needsReset": false,
+        "message": "已载入设计 · 从显式初始条件开始",
+        "elements": 5,
+        "scopes": 0,
+        "runId": "4a058c85-8141-4934-8985-c2ee4d4993d1",
+        "designRevision": 0,
+        "stimulusCount": 0
+      }
+    },
+    {
+      "name": "import creates copy without replacing original",
+      "pass": true
+    },
+    {
+      "name": "bad import preserves active design",
+      "pass": true
+    }
+  ],
+  "pageErrors": []
+}

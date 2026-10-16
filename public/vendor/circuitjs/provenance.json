@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/pfalstad/circuitjs1",
+  "revision": "8ee04b18a6c9241675f1c4f766617806c2fe148d",
+  "archiveSHA256": "81340e87dccaaad5dd64ab9bdd80d1fb540e4677b4df334f1191ec97a3ad94ca",
+  "license": "GPL-2.0-or-later",
+  "builtFrom": "vendored source archive, ts/; Vite; unminified to preserve class names",
+  "changes": [
+    "Disable production service-worker registration via build define",
+    "Local title and embedded favicon",
+    "Local empty sidebar resource",
+    "Filter malformed Chinese locale entries and add common labels",
+    "Register Unijunction bootstrap model after VCCS dump mapping",
+    "Opt-in sandbox host bridge; numerical solver unchanged"
+  ],
+  "sandboxBridgeSHA256": "91b82b8a2c5c614fe2515b51474e883beade9c184884c3598c8ea80bab1533e5"
+}

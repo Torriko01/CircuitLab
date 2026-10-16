@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-14T17:14:53.307Z",
+  "url": "http://127.0.0.1:4174/",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "checks": [
+    {
+      "name": "schema-1 backup and migration",
+      "passed": true
+    },
+    {
+      "name": "invalid import preserves records",
+      "passed": true
+    },
+    {
+      "name": "schema-2 export/import roundtrip",
+      "passed": true
+    },
+    {
+      "name": "meter loads divider in production UI",
+      "passed": true
+    },
+    {
+      "name": "local engine capture 短时跌落变慢，但长期稳态压降不会因此消失",
+      "passed": true
+    },
+    {
+      "name": "local engine capture 可能未充分建立，保持电压与数字码偏低",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 1280",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 1440",
+      "passed": true
+    },
+    {
+      "name": "waveform playback starts",
+      "passed": true
+    },
+    {
+      "name": "storage failure stays usable",
+      "passed": true
+    },
+    {
+      "name": "memory export available",
+      "passed": true
+    },
+    {
+      "name": "storage recovers",
+      "passed": true
+    },
+    {
+      "name": "no external runtime requests",
+      "passed": true
+    },
+    {
+      "name": "no page exceptions",
+      "passed": true
+    }
+  ],
+  "outside": [],
+  "pageErrors": []
+}

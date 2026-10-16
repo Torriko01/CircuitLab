@@ -1,0 +1,8033 @@
+{
+  "version": "0.3",
+  "engineRevision": "8ee04b18a6c9241675f1c4f766617806c2fe148d",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "captures": 226,
+  "checks": 1146,
+  "passed": 1146,
+  "rows": [
+    {
+      "name": "MOS 0/0/1/40 I",
+      "actual": 1.1999995082057068e-7,
+      "expected": 1.1999995083248528e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/40 VDS",
+      "actual": 11.999995080002018,
+      "expected": 11.999995080002016,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/40 VGS",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/40 KCL",
+      "actual": -1.2878586979772697e-15,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/100 I",
+      "actual": 1.199998788159462e-7,
+      "expected": 1.1999987879501686e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/100 VDS",
+      "actual": 11.99998788001224,
+      "expected": 11.999987880012242,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/100 VGS",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/100 KCL",
+      "actual": -3.3750779525088285e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/330 I",
+      "actual": 1.1999960279862274e-7,
+      "expected": 1.1999960280503017e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/330 VDS",
+      "actual": 11.999960280131473,
+      "expected": 11.999960280131472,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/330 VGS",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/1/330 KCL",
+      "actual": 3.4450555794462425e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/40 I",
+      "actual": 1.199999400292029e-7,
+      "expected": 1.1999994001143932e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/40 VDS",
+      "actual": 11.999994000003001,
+      "expected": 11.999994000003,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/40 VGS",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/40 KCL",
+      "actual": -2.664535364979494e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/100 I",
+      "actual": 1.199998679801695e-7,
+      "expected": 1.1999986801408175e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/100 VDS",
+      "actual": 11.999986800014524,
+      "expected": 11.999986800014518,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/100 VGS",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/100 KCL",
+      "actual": -1.5987212189876965e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/330 I",
+      "actual": 1.1999959200052632e-7,
+      "expected": 1.19999592004326e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/330 VDS",
+      "actual": 11.99995920013872,
+      "expected": 11.999959200138719,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/330 VGS",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/10/330 KCL",
+      "actual": -4.844610235776891e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/40 I",
+      "actual": 1.1999989566469082e-7,
+      "expected": 1.1999989558863417e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/40 VDS",
+      "actual": 11.99998956000908,
+      "expected": 11.999989560009084,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/40 VGS",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/40 KCL",
+      "actual": -6.519607301060429e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/100 I",
+      "actual": 1.1999982360677563e-7,
+      "expected": 1.1999982359263728e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/100 VDS",
+      "actual": 11.99998236002593,
+      "expected": 11.999982360025932,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/100 VGS",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/100 KCL",
+      "actual": -6.425115481838292e-18,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/330 I",
+      "actual": 1.1999954760237112e-7,
+      "expected": 1.1999954760488408e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/330 VDS",
+      "actual": 11.999954760170555,
+      "expected": 11.999954760170553,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/330 VGS",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/0/47/330 KCL",
+      "actual": -1.7637581772219084e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/40 I",
+      "actual": 1.0499995695134601e-7,
+      "expected": 1.0499995695676172e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/40 VDS",
+      "actual": 10.499995695001767,
+      "expected": 10.499995695001765,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/40 VGS",
+      "actual": -1.5,
+      "expected": -1.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/40 KCL",
+      "actual": -1.5543122344752192e-15,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/100 I",
+      "actual": 1.0499989393508713e-7,
+      "expected": 1.0499989394563974e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/100 VDS",
+      "actual": 10.499989395010711,
+      "expected": 10.499989395010711,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/100 VGS",
+      "actual": -1.5,
+      "expected": -1.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/100 KCL",
+      "actual": 1.0658141062871282e-15,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/330 I",
+      "actual": 1.0499965245283207e-7,
+      "expected": 1.0499965245037641e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/330 VDS",
+      "actual": 10.499965245115039,
+      "expected": 10.499965245115039,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/330 VGS",
+      "actual": -1.5,
+      "expected": -1.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/1/330 KCL",
+      "actual": -8.128178322084611e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/40 I",
+      "actual": 1.0499994753665476e-7,
+      "expected": 1.0499994751000941e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/40 VDS",
+      "actual": 10.499994750002626,
+      "expected": 10.499994750002624,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/40 VGS",
+      "actual": -1.5,
+      "expected": -1.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/40 KCL",
+      "actual": -3.108624548359777e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/100 I",
+      "actual": 1.0499988446710518e-7,
+      "expected": 1.0499988450424719e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/100 VDS",
+      "actual": 10.49998845001271,
+      "expected": 10.499988450012705,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/100 VGS",
+      "actual": -1.5,
+      "expected": -1.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/100 KCL",
+      "actual": -1.2434497928741312e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/330 I",
+      "actual": 1.0499964300046051e-7,
+      "expected": 1.0499964299856067e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/330 VDS",
+      "actual": 10.499964300121379,
+      "expected": 10.49996430012138,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/330 VGS",
+      "actual": -1.5,
+      "expected": -1.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/10/330 KCL",
+      "actual": 1.1304090108983086e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/40 I",
+      "actual": 1.0499990872325782e-7,
+      "expected": 1.049999086400549e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/40 VDS",
+      "actual": 10.499990865007945,
+      "expected": 10.499990865007948,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/40 VGS",
+      "actual": -1.5,
+      "expected": -1.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/40 KCL",
+      "actual": -7.842426595721351e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/100 I",
+      "actual": 1.0499984563594467e-7,
+      "expected": 1.0499984564959966e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/100 VDS",
+      "actual": 10.49998456502269,
+      "expected": 10.49998456502269,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/100 VGS",
+      "actual": -1.5,
+      "expected": -1.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/100 KCL",
+      "actual": 4.270815558928047e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/330 I",
+      "actual": 1.0499960415207473e-7,
+      "expected": 1.0499960414956175e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/330 VDS",
+      "actual": 10.499960415149236,
+      "expected": 10.499960415149236,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/330 VGS",
+      "actual": -1.5,
+      "expected": -1.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 0/1.5/47/330 KCL",
+      "actual": -2.015724009250461e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/40 I",
+      "actual": 0.022500107774955813,
+      "expected": 0.022500107774955775,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/40 VDS",
+      "actual": 11.077495581226813,
+      "expected": 11.077495581226813,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/40 VGS",
+      "actual": 1.8,
+      "expected": 1.8,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/40 KCL",
+      "actual": -1.5543122344752192e-15,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/100 I",
+      "actual": 0.02250009427490477,
+      "expected": 0.022500094274904774,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/100 VDS",
+      "actual": 9.727490478234618,
+      "expected": 9.727490478234618,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/100 VGS",
+      "actual": 1.8,
+      "expected": 1.8,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/100 KCL",
+      "actual": 4.0939474033052647e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/330 I",
+      "actual": 0.022500042524859206,
+      "expected": 0.022500042524859244,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/330 VDS",
+      "actual": 4.552485924271603,
+      "expected": 4.55248592427159,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/330 VGS",
+      "actual": 1.8,
+      "expected": 1.8,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/1/330 KCL",
+      "actual": -5.204170427930421e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/40 I",
+      "actual": 0.022500105749947163,
+      "expected": 0.02250010574994711,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/40 VDS",
+      "actual": 10.874994712502644,
+      "expected": 10.874994712502644,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/40 VGS",
+      "actual": 1.8,
+      "expected": 1.8,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/40 KCL",
+      "actual": -2.671474153004283e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/100 I",
+      "actual": 0.022500092249898494,
+      "expected": 0.02250009224989853,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/100 VDS",
+      "actual": 9.524989852511167,
+      "expected": 9.524989852511162,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/100 VGS",
+      "actual": 1.8,
+      "expected": 1.8,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/100 KCL",
+      "actual": -1.4224732503009818e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/330 I",
+      "actual": 0.02250004049986231,
+      "expected": 0.022500040499862303,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/330 VDS",
+      "actual": 4.349986230046815,
+      "expected": 4.349986230046817,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/330 VGS",
+      "actual": 1.8,
+      "expected": 1.8,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/10/330 KCL",
+      "actual": -3.8163916471489756e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/40 I",
+      "actual": 0.02250009742491521,
+      "expected": 0.02250009742491523,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/40 VDS",
+      "actual": 10.042491524032373,
+      "expected": 10.042491524032375,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/40 VGS",
+      "actual": 1.8,
+      "expected": 1.8,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/40 KCL",
+      "actual": 7.632783294297951e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/100 I",
+      "actual": 0.02250008392487663,
+      "expected": 0.022500083924876634,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/100 VDS",
+      "actual": 8.692487663043133,
+      "expected": 8.692487663043135,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/100 VGS",
+      "actual": 1.8,
+      "expected": 1.8,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/100 KCL",
+      "actual": 4.5102810375396984e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/330 I",
+      "actual": 0.02250003217487867,
+      "expected": 0.02250003217487871,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/330 VDS",
+      "actual": 3.5174878700707404,
+      "expected": 3.5174878700707284,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/330 VGS",
+      "actual": 1.8,
+      "expected": 1.8,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/330 KVL",
+      "actual": 11.999999999999998,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/0/47/330 KCL",
+      "actual": 1.734723475976807e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/40 I",
+      "actual": 1.0499995695134601e-7,
+      "expected": 1.0499995695676172e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/40 VDS",
+      "actual": 10.499995695001767,
+      "expected": 10.499995695001765,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/40 VGS",
+      "actual": 0.30000000000000004,
+      "expected": 0.30000000000000004,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/40 KCL",
+      "actual": -1.5543122344752192e-15,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/100 I",
+      "actual": 1.0499989393508713e-7,
+      "expected": 1.0499989394563974e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/100 VDS",
+      "actual": 10.499989395010711,
+      "expected": 10.499989395010711,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/100 VGS",
+      "actual": 0.30000000000000004,
+      "expected": 0.30000000000000004,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/100 KCL",
+      "actual": 1.0658141062871282e-15,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/330 I",
+      "actual": 1.0499965245283207e-7,
+      "expected": 1.0499965245037641e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/330 VDS",
+      "actual": 10.499965245115039,
+      "expected": 10.499965245115039,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/330 VGS",
+      "actual": 0.30000000000000004,
+      "expected": 0.30000000000000004,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/1/330 KCL",
+      "actual": -8.128178322084611e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/40 I",
+      "actual": 1.0499994753665476e-7,
+      "expected": 1.0499994751000941e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/40 VDS",
+      "actual": 10.499994750002626,
+      "expected": 10.499994750002624,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/40 VGS",
+      "actual": 0.30000000000000004,
+      "expected": 0.30000000000000004,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/40 KCL",
+      "actual": -3.108624548359777e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/100 I",
+      "actual": 1.0499988446710518e-7,
+      "expected": 1.0499988450424719e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/100 VDS",
+      "actual": 10.49998845001271,
+      "expected": 10.499988450012705,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/100 VGS",
+      "actual": 0.30000000000000004,
+      "expected": 0.30000000000000004,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/100 KCL",
+      "actual": -1.2434497928741312e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/330 I",
+      "actual": 1.0499964300046051e-7,
+      "expected": 1.0499964299856067e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/330 VDS",
+      "actual": 10.499964300121379,
+      "expected": 10.49996430012138,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/330 VGS",
+      "actual": 0.30000000000000004,
+      "expected": 0.30000000000000004,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/10/330 KCL",
+      "actual": 1.1304090108983086e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/40 I",
+      "actual": 1.0499990872325782e-7,
+      "expected": 1.049999086400549e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/40 VDS",
+      "actual": 10.499990865007945,
+      "expected": 10.499990865007948,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/40 VGS",
+      "actual": 0.30000000000000004,
+      "expected": 0.30000000000000004,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/40 KCL",
+      "actual": -7.842426595721351e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/100 I",
+      "actual": 1.0499984563594467e-7,
+      "expected": 1.0499984564959966e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/100 VDS",
+      "actual": 10.49998456502269,
+      "expected": 10.49998456502269,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/100 VGS",
+      "actual": 0.30000000000000004,
+      "expected": 0.30000000000000004,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/100 KCL",
+      "actual": 4.270815558928047e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/330 I",
+      "actual": 1.0499960415207473e-7,
+      "expected": 1.0499960414956175e-7,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/330 VDS",
+      "actual": 10.499960415149236,
+      "expected": 10.499960415149236,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/330 VGS",
+      "actual": 0.30000000000000004,
+      "expected": 0.30000000000000004,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 1.8/1.5/47/330 KCL",
+      "actual": -2.015724009250461e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/40 I",
+      "actual": 0.28415378280648496,
+      "expected": 0.28415378280648496,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/40 VDS",
+      "actual": 0.349694904934117,
+      "expected": 0.34969490493411703,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/40 VGS",
+      "actual": 3.3,
+      "expected": 3.3,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/40 KVL",
+      "actual": 11.999999999999998,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/40 KCL",
+      "actual": -5.551115123125783e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/100 I",
+      "actual": 0.11746899950570328,
+      "expected": 0.11746899950570328,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/100 VDS",
+      "actual": 0.13563104992396982,
+      "expected": 0.1356310499239699,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/100 VGS",
+      "actual": 3.3,
+      "expected": 3.3,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/100 KCL",
+      "actual": 3.885780586188048e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/330 I",
+      "actual": 0.03613110684585498,
+      "expected": 0.03613110684585497,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/330 VDS",
+      "actual": 0.04060363402200354,
+      "expected": 0.040603634022003524,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/330 VGS",
+      "actual": 3.3,
+      "expected": 3.3,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/330 KVL",
+      "actual": 12.000000000000002,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/1/330 KCL",
+      "actual": -9.020562075079397e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/40 I",
+      "actual": 0.23434867573429088,
+      "expected": 0.23434867573429086,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/40 VDS",
+      "actual": 0.2825662132854573,
+      "expected": 0.2825662132854573,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/40 VGS",
+      "actual": 3.3,
+      "expected": 3.3,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/40 KCL",
+      "actual": -1.942890293094024e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/100 I",
+      "actual": 0.10796140786625073,
+      "expected": 0.10796140786625073,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/100 VDS",
+      "actual": 0.12424513471241956,
+      "expected": 0.12424513471241952,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/100 VGS",
+      "actual": 3.3,
+      "expected": 3.3,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/100 KCL",
+      "actual": -2.7755575615628914e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/330 I",
+      "actual": 0.03517788122082727,
+      "expected": 0.03517788122082726,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/330 VDS",
+      "actual": 0.0395203849187316,
+      "expected": 0.03952038491873161,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/330 VGS",
+      "actual": 3.3,
+      "expected": 3.3,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/330 KVL",
+      "actual": 12.000000000000002,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/10/330 KCL",
+      "actual": -9.71445146547012e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/40 I",
+      "actual": 0.1361127893082255,
+      "expected": 0.1361127893082255,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/40 VDS",
+      "actual": 0.1581873301843788,
+      "expected": 0.15818733018437886,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/40 VGS",
+      "actual": 3.3,
+      "expected": 3.3,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/40 KCL",
+      "actual": 2.7755575615628914e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/100 I",
+      "actual": 0.08100425140934518,
+      "expected": 0.08100425140934518,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/100 VDS",
+      "actual": 0.09237504282625943,
+      "expected": 0.09237504282625947,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/100 VGS",
+      "actual": 3.3,
+      "expected": 3.3,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/100 KCL",
+      "actual": -1.3877787807814457e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/330 I",
+      "actual": 0.031735771100487344,
+      "expected": 0.031735771100487344,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/330 VDS",
+      "actual": 0.03561429511627174,
+      "expected": 0.035614295116271746,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/330 VGS",
+      "actual": 3.3,
+      "expected": 3.3,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/0/47/330 KCL",
+      "actual": -6.938893903907228e-18,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/40 I",
+      "actual": 0.0225000927749619,
+      "expected": 0.0225000927749619,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/40 VDS",
+      "actual": 9.577496196226564,
+      "expected": 9.577496196226562,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/40 VGS",
+      "actual": 1.7999999999999998,
+      "expected": 1.7999999999999998,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/40 KCL",
+      "actual": -1.7763568394002505e-15,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/100 I",
+      "actual": 0.02250007927491989,
+      "expected": 0.02250007927491989,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/100 VDS",
+      "actual": 8.227491993233091,
+      "expected": 8.227491993233091,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/100 VGS",
+      "actual": 1.7999999999999998,
+      "expected": 1.7999999999999998,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/100 KCL",
+      "actual": 3.469446951953614e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/330 I",
+      "actual": 0.02250002752490887,
+      "expected": 0.022500027524908865,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/330 VDS",
+      "actual": 3.052490889255166,
+      "expected": 3.052490889255165,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/330 VGS",
+      "actual": 1.7999999999999998,
+      "expected": 1.7999999999999998,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/1/330 KCL",
+      "actual": -1.2177758801357186e-15,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/40 I",
+      "actual": 0.022500090749954627,
+      "expected": 0.02250009074995461,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/40 VDS",
+      "actual": 9.37499546250227,
+      "expected": 9.37499546250227,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/40 VGS",
+      "actual": 1.7999999999999998,
+      "expected": 1.7999999999999998,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/40 KCL",
+      "actual": -9.020562075079397e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/100 I",
+      "actual": 0.022500077249914943,
+      "expected": 0.02250007724991499,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/100 VDS",
+      "actual": 8.024991502509359,
+      "expected": 8.024991502509351,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/100 VGS",
+      "actual": 1.7999999999999998,
+      "expected": 1.7999999999999998,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/100 KCL",
+      "actual": -2.463307335887066e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/330 I",
+      "actual": 0.022500025499913263,
+      "expected": 0.02250002549991327,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/330 VDS",
+      "actual": 2.849991330029492,
+      "expected": 2.8499913300294883,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/330 VGS",
+      "actual": 1.7999999999999998,
+      "expected": 1.7999999999999998,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/10/330 KCL",
+      "actual": -1.8388068845354155e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/40 I",
+      "actual": 0.02250008242492827,
+      "expected": 0.022500082424928243,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/40 VDS",
+      "actual": 8.542492829031238,
+      "expected": 8.542492829031243,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/40 VGS",
+      "actual": 1.7999999999999998,
+      "expected": 1.7999999999999998,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/40 KCL",
+      "actual": 6.245004513516506e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/100 I",
+      "actual": 0.022500068924898642,
+      "expected": 0.022500068924898652,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/100 VDS",
+      "actual": 7.1924898680399,
+      "expected": 7.192489868039898,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/100 VGS",
+      "actual": 1.7999999999999998,
+      "expected": 1.7999999999999998,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/100 KCL",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/330 I",
+      "actual": 0.022500017174935234,
+      "expected": 0.022500017174935223,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/330 VDS",
+      "actual": 2.017493525049418,
+      "expected": 2.01749352504942,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/330 VGS",
+      "actual": 1.7999999999999998,
+      "expected": 1.7999999999999998,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 3.3/1.5/47/330 KCL",
+      "actual": -3.469446951953614e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/40 I",
+      "actual": 0.2885616795691991,
+      "expected": 0.28856167956919904,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/40 VDS",
+      "actual": 0.16897113766283867,
+      "expected": 0.1689711376628386,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/40 VGS",
+      "actual": 5,
+      "expected": 5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/40 KVL",
+      "actual": 12.000000000000002,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/40 KCL",
+      "actual": -3.3306690738754696e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/100 I",
+      "actual": 0.11813692370588408,
+      "expected": 0.11813692370588408,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/100 VDS",
+      "actual": 0.06817070570570721,
+      "expected": 0.06817070570570721,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/100 VGS",
+      "actual": 5,
+      "expected": 5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/100 KCL",
+      "actual": 8.326672684688674e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/330 I",
+      "actual": 0.03619111148875607,
+      "expected": 0.03619111148875607,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/330 VDS",
+      "actual": 0.02074209722174006,
+      "expected": 0.020742097221740058,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/330 VGS",
+      "actual": 5,
+      "expected": 5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/1/330 KCL",
+      "actual": 4.649058915617843e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/40 I",
+      "actual": 0.23723410909242512,
+      "expected": 0.2372341090924251,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/40 VDS",
+      "actual": 0.13829454537874494,
+      "expected": 0.13829454537874486,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/40 VGS",
+      "actual": 5,
+      "expected": 5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/40 KCL",
+      "actual": -1.3877787807814457e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/100 I",
+      "actual": 0.10852207332433471,
+      "expected": 0.10852207332433471,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/100 VDS",
+      "actual": 0.06257193432318338,
+      "expected": 0.06257193432318336,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/100 VGS",
+      "actual": 5,
+      "expected": 5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/100 KCL",
+      "actual": -5.551115123125783e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/330 I",
+      "actual": 0.035234728300282965,
+      "expected": 0.035234728300282965,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/330 VDS",
+      "actual": 0.02019237790379163,
+      "expected": 0.02019237790379163,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/330 VGS",
+      "actual": 5,
+      "expected": 5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/10/330 KCL",
+      "actual": 3.469446951953614e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/40 I",
+      "actual": 0.13702076408759611,
+      "expected": 0.1370207640875961,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/40 VDS",
+      "actual": 0.0791935243791391,
+      "expected": 0.0791935243791391,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/40 VGS",
+      "actual": 5,
+      "expected": 5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/40 KCL",
+      "actual": -2.7755575615628914e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/100 I",
+      "actual": 0.08131443544991086,
+      "expected": 0.08131443544991086,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/100 VDS",
+      "actual": 0.046777988863102866,
+      "expected": 0.04677798886310286,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/100 VGS",
+      "actual": 5,
+      "expected": 5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/100 KCL",
+      "actual": 2.7755575615628914e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/330 I",
+      "actual": 0.031781940390282246,
+      "expected": 0.031781940390282246,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/330 VDS",
+      "actual": 0.01820847286359332,
+      "expected": 0.018208472863593318,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/330 VGS",
+      "actual": 5,
+      "expected": 5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/0/47/330 KCL",
+      "actual": -1.3877787807814457e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/40 I",
+      "actual": 0.24957420496492616,
+      "expected": 0.24957420496492613,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/40 VDS",
+      "actual": 0.2674575964380279,
+      "expected": 0.2674575964380279,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/40 VGS",
+      "actual": 3.5,
+      "expected": 3.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/40 KCL",
+      "actual": -2.7755575615628914e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/100 I",
+      "actual": 0.10291378913552705,
+      "expected": 0.10291378913552705,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/100 VDS",
+      "actual": 0.10570729731176653,
+      "expected": 0.10570729731176662,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/100 VGS",
+      "actual": 3.5,
+      "expected": 3.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/100 KCL",
+      "actual": 5.689893001203927e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/330 I",
+      "actual": 0.03162574072061952,
+      "expected": 0.03162574072061952,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/330 VDS",
+      "actual": 0.031879821474938064,
+      "expected": 0.03187982147493801,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/330 VGS",
+      "actual": 3.5,
+      "expected": 3.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/330 KVL",
+      "actual": 11.999999999999998,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/1/330 KCL",
+      "actual": -4.440892098500626e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/40 I",
+      "actual": 0.20565051439966248,
+      "expected": 0.20565051439966248,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/40 VDS",
+      "actual": 0.2174742800168774,
+      "expected": 0.2174742800168773,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/40 VGS",
+      "actual": 3.5,
+      "expected": 3.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/40 KCL",
+      "actual": -8.326672684688674e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/100 I",
+      "actual": 0.09457343726375939,
+      "expected": 0.09457343726375939,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/100 VDS",
+      "actual": 0.0969219009864668,
+      "expected": 0.09692190098646702,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/100 VGS",
+      "actual": 3.5,
+      "expected": 3.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/100 KCL",
+      "actual": -2.7755575615628914e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/330 I",
+      "actual": 0.03079108286345209,
+      "expected": 0.03079108286345209,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/330 VDS",
+      "actual": 0.031031826426289877,
+      "expected": 0.03103182642628994,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/330 VGS",
+      "actual": 3.5,
+      "expected": 3.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/10/330 KCL",
+      "actual": -2.0816681711721685e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/40 I",
+      "actual": 0.11927515894306076,
+      "expected": 0.11927515894306072,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/40 VDS",
+      "actual": 0.12306117195371624,
+      "expected": 0.12306117195371627,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/40 VGS",
+      "actual": 3.5,
+      "expected": 3.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/40 KVL",
+      "actual": 12.000000000000002,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/40 KCL",
+      "actual": -4.163336342344337e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/100 I",
+      "actual": 0.07093713026163184,
+      "expected": 0.07093713026163184,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/100 VDS",
+      "actual": 0.07224185154011797,
+      "expected": 0.07224185154011797,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/100 VGS",
+      "actual": 3.5,
+      "expected": 3.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/100 KCL",
+      "actual": 1.3877787807814457e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/330 I",
+      "actual": 0.02777726026318848,
+      "expected": 0.02777726026318848,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/330 VDS",
+      "actual": 0.027972880777942688,
+      "expected": 0.02797288077794273,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/330 VGS",
+      "actual": 3.5,
+      "expected": 3.5,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS 5/1.5/47/330 KCL",
+      "actual": 3.469446951953614e-18,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/40 I",
+      "actual": 0.022500107774955813,
+      "expected": 0.022500107774955775,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/40 VDS",
+      "actual": 11.077495581226813,
+      "expected": 11.077495581226813,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/40 VGS",
+      "actual": 1.8,
+      "expected": 1.8,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/40 KCL",
+      "actual": -1.5543122344752192e-15,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/100 I",
+      "actual": 0.02250009427490477,
+      "expected": 0.022500094274904774,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/100 VDS",
+      "actual": 9.727490478234618,
+      "expected": 9.727490478234618,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/100 VGS",
+      "actual": 1.8,
+      "expected": 1.8,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/100 KCL",
+      "actual": 4.0939474033052647e-16,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/330 I",
+      "actual": 0.022500042524859206,
+      "expected": 0.022500042524859244,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/330 VDS",
+      "actual": 4.552485924271603,
+      "expected": 4.55248592427159,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/330 VGS",
+      "actual": 1.8,
+      "expected": 1.8,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 0/330 KCL",
+      "actual": -5.204170427930421e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/40 I",
+      "actual": 0.1361127893082255,
+      "expected": 0.1361127893082255,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/40 VDS",
+      "actual": 0.1581873301843788,
+      "expected": 0.15818733018437886,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/40 VGS",
+      "actual": 3.3,
+      "expected": 3.3,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/40 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/40 KCL",
+      "actual": 2.7755575615628914e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/100 I",
+      "actual": 0.08100425140934518,
+      "expected": 0.08100425140934518,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/100 VDS",
+      "actual": 0.09237504282625943,
+      "expected": 0.09237504282625947,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/100 VGS",
+      "actual": 3.3,
+      "expected": 3.3,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/100 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/100 KCL",
+      "actual": -1.3877787807814457e-17,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/330 I",
+      "actual": 0.031735771100487344,
+      "expected": 0.031735771100487344,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/330 VDS",
+      "actual": 0.03561429511627174,
+      "expected": 0.035614295116271746,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/330 VGS",
+      "actual": 3.3,
+      "expected": 3.3,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/330 KVL",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "MOS诊断 1/330 KCL",
+      "actual": -6.938893903907228e-18,
+      "expected": 0,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/0/0.001 导通电流",
+      "actual": 0.2479400686537447,
+      "expected": 0.247942563237745,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/0/0.001 SW峰值",
+      "actual": 12.627815763189826,
+      "expected": 12.627859714789448,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/0/0.001 10%时间",
+      "actual": 0.0004169122814213777,
+      "expected": 0.0004171567727911318,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/0/0.001 能量相对残差",
+      "actual": 0.0000015335843594467361,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/0/0.001 关断KCL",
+      "actual": -3.0731506476838135e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/0/0.002 导通电流",
+      "actual": 0.24998297915036272,
+      "expected": 0.24998306781587729,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/0/0.002 SW峰值",
+      "actual": 12.628238737377389,
+      "expected": 12.628283695091179,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/0/0.002 10%时间",
+      "actual": 0.0004173466254634279,
+      "expected": 0.0004175965322315322,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/0/0.002 能量相对残差",
+      "actual": 0.0000015324111788322298,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/0/0.002 关断KCL",
+      "actual": -3.094283897840737e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/12/0.001 导通电流",
+      "actual": 0.24794500649706377,
+      "expected": 0.247942563237745,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/12/0.001 SW峰值",
+      "actual": 24.62775415909868,
+      "expected": 24.627859714789448,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/12/0.001 10%时间",
+      "actual": 0.00012040351444809051,
+      "expected": 0.00012064947869985687,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/12/0.001 能量相对残差",
+      "actual": 0.000005179383740679209,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/12/0.001 关断KCL",
+      "actual": -0.0000034543169590034033,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/12/0.002 导通电流",
+      "actual": 0.24998301988511695,
+      "expected": 0.24998306781587729,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/12/0.002 SW峰值",
+      "actual": 24.628176624246098,
+      "expected": 24.628283695091177,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/12/0.002 10%时间",
+      "actual": 0.00012108918114824138,
+      "expected": 0.00012133901184562536,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/12/0.002 能量相对残差",
+      "actual": 0.000005949695665955281,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/12/0.002 关断KCL",
+      "actual": -0.000003447852269425974,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/24/0.001 导通电流",
+      "actual": 0.24794500649706386,
+      "expected": 0.247942563237745,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/24/0.001 SW峰值",
+      "actual": 36.627691452551616,
+      "expected": 36.627859714789444,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/24/0.001 10%时间",
+      "actual": 0.00007245222206110798,
+      "expected": 0.00007269946135364434,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/24/0.001 能量相对残差",
+      "actual": 0.00001235392291281306,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/24/0.001 关断KCL",
+      "actual": -0.000009173439667169535,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/24/0.002 导通电流",
+      "actual": 0.24998301988511698,
+      "expected": 0.24998306781587729,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/24/0.002 SW峰值",
+      "actual": 36.62811442802545,
+      "expected": 36.62828369509118,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/24/0.002 10%时间",
+      "actual": 0.00007293183993625644,
+      "expected": 0.00007318166869436776,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/24/0.002 能量相对残差",
+      "actual": 0.00001069794107851383,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.01/24/0.002 关断KCL",
+      "actual": -0.000009165614148981676,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/0/0.001 导通电流",
+      "actual": 0.22730687719522571,
+      "expected": 0.22732051167764689,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/0/0.001 SW峰值",
+      "actual": 12.624371282691735,
+      "expected": 12.623367705774562,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/0/0.001 10%时间",
+      "actual": 0.0008245537944281639,
+      "expected": 0.0008247384269776102,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/0/0.001 能量相对残差",
+      "actual": 3.8669810455156784e-7,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/0/0.001 关断KCL",
+      "actual": -7.213266685264052e-8,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/0/0.002 导通电流",
+      "actual": 0.24793882989274804,
+      "expected": 0.247942563237745,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/0/0.002 SW峰值",
+      "actual": 12.628857224643346,
+      "expected": 12.627859714789448,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/0/0.002 10%时间",
+      "actual": 0.0008340679285680297,
+      "expected": 0.0008343135455822636,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/0/0.002 能量相对残差",
+      "actual": 3.8343776462281595e-7,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/0/0.002 关断KCL",
+      "actual": -7.681055272700508e-8,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/12/0.001 导通电流",
+      "actual": 0.22733409257944717,
+      "expected": 0.22732051167764689,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/12/0.001 SW峰值",
+      "actual": 24.624343321853793,
+      "expected": 24.623367705774562,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/12/0.001 10%时间",
+      "actual": 0.00022678513130011766,
+      "expected": 0.00022699041080435182,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/12/0.001 能量相对残差",
+      "actual": 0.000001607611551986131,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/12/0.001 关断KCL",
+      "actual": -8.917565374747746e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/12/0.002 导通电流",
+      "actual": 0.24794130178047835,
+      "expected": 0.247942563237745,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/12/0.002 SW峰值",
+      "actual": 24.628826430889312,
+      "expected": 24.627859714789448,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/12/0.002 10%时间",
+      "actual": 0.00024105119499413536,
+      "expected": 0.00024129895739971374,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/12/0.002 能量相对残差",
+      "actual": 0.000001389474629338385,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/12/0.002 关断KCL",
+      "actual": -8.643000208569443e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/24/0.001 导通电流",
+      "actual": 0.2273340925794472,
+      "expected": 0.22732051167764689,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/24/0.001 SW峰值",
+      "actual": 36.62430915732806,
+      "expected": 36.62336770577456,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/24/0.001 10%时间",
+      "actual": 0.0001352651465387168,
+      "expected": 0.00013548531573675846,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/24/0.001 能量相对残差",
+      "actual": 0.00000245167387012242,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/24/0.001 关断KCL",
+      "actual": -0.0000024174935971159263,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/24/0.002 导通电流",
+      "actual": 0.24794130178047843,
+      "expected": 0.247942563237745,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/24/0.002 SW峰值",
+      "actual": 36.62879510336688,
+      "expected": 36.627859714789444,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/24/0.002 10%时间",
+      "actual": 0.00014515046373984918,
+      "expected": 0.00014539892270728867,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/24/0.002 能量相对残差",
+      "actual": 0.0000023016015508911875,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.02/24/0.002 关断KCL",
+      "actual": -0.000002299743357452213,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/0/0.001 导通电流",
+      "actual": 0.15425378411298124,
+      "expected": 0.15427677850622198,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/0/0.001 SW峰值",
+      "actual": 12.603345560518513,
+      "expected": 12.60331664311156,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/0/0.001 10%时间",
+      "actual": 0.0019405512028195268,
+      "expected": 0.0019404138289977344,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/0/0.001 能量相对残差",
+      "actual": 6.112190878621841e-8,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/0/0.001 关断KCL",
+      "actual": -8.900414321821754e-9,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/0/0.002 导通电流",
+      "actual": 0.21332183739914745,
+      "expected": 0.21334825946741245,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/0/0.002 SW峰值",
+      "actual": 12.620100002574597,
+      "expected": 12.62008622702389,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/0/0.002 10%时间",
+      "actual": 0.0020434489863520866,
+      "expected": 0.0020436112185342006,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/0/0.002 能量相对残差",
+      "actual": 5.868189556505022e-8,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/0/0.002 关断KCL",
+      "actual": -1.1040798249980085e-8,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/12/0.001 导通电流",
+      "actual": 0.15429973125451538,
+      "expected": 0.15427677850622198,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/12/0.001 SW峰值",
+      "actual": 24.603340838378205,
+      "expected": 24.60331664311156,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/12/0.001 10%时间",
+      "actual": 0.00042513257132043686,
+      "expected": 0.00042515997388720383,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/12/0.001 能量相对残差",
+      "actual": 3.0706982451197917e-7,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/12/0.001 关断KCL",
+      "actual": -1.690780234882008e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/12/0.002 导通电流",
+      "actual": 0.21333943867903368,
+      "expected": 0.21334825946741245,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/12/0.002 SW峰值",
+      "actual": 24.62008971796631,
+      "expected": 24.62008622702389,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/12/0.002 10%时间",
+      "actual": 0.0005420220618915757,
+      "expected": 0.0005422299948910389,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/12/0.002 能量相对残差",
+      "actual": 2.305679404638856e-7,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/12/0.002 关断KCL",
+      "actual": -1.4612909258211703e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/24/0.001 导通电流",
+      "actual": 0.1542997312545154,
+      "expected": 0.15427677850622198,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/24/0.001 SW峰值",
+      "actual": 36.60332071986079,
+      "expected": 36.60331664311156,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/24/0.001 10%时间",
+      "actual": 0.00024413478067317846,
+      "expected": 0.00024424515169553475,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/24/0.001 能量相对残差",
+      "actual": 0.000001066284322878894,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/24/0.001 关断KCL",
+      "actual": -4.975218909908613e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/24/0.002 导通电流",
+      "actual": 0.2133394386790337,
+      "expected": 0.21334825946741245,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/24/0.002 SW峰值",
+      "actual": 36.62007516474521,
+      "expected": 36.62008622702389,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/24/0.002 10%时间",
+      "actual": 0.0003212521628462475,
+      "expected": 0.0003214750342645838,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/24/0.002 能量相对残差",
+      "actual": 3.8047245906602663e-7,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 47/0.05/24/0.002 关断KCL",
+      "actual": -4.022155987157274e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/0/0.001 导通电流",
+      "actual": 0.11880697517093664,
+      "expected": 0.11880700044888412,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/0/0.001 SW峰值",
+      "actual": 12.589706153684256,
+      "expected": 12.58980242111429,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/0/0.001 10%时间",
+      "actual": 0.00019827323306678495,
+      "expected": 0.00019852056489929275,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/0/0.001 能量相对残差",
+      "actual": 0.000006751824365118477,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/0/0.001 关断KCL",
+      "actual": -6.380753492788677e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/0/0.002 导通电流",
+      "actual": 0.11881186783710289,
+      "expected": 0.1188118809876202,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/0/0.002 SW峰值",
+      "actual": 12.589708268246797,
+      "expected": 12.589804546092283,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/0/0.002 10%时间",
+      "actual": 0.0001982741774538923,
+      "expected": 0.00019852153626125286,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/0/0.002 能量相对残差",
+      "actual": 0.000006751800492514823,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/0/0.002 关断KCL",
+      "actual": -6.380975597645999e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/12/0.001 导通电流",
+      "actual": 0.11880699957426875,
+      "expected": 0.11880700044888412,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/12/0.001 SW峰值",
+      "actual": 24.5895766568392,
+      "expected": 24.58980242111429,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/12/0.001 10%时间",
+      "actual": 0.00005734840559372075,
+      "expected": 0.00005759560037226394,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/12/0.001 能量相对残差",
+      "actual": 0.000025114885693134103,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/12/0.001 关断KCL",
+      "actual": -0.000007143073905521976,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/12/0.002 导通电流",
+      "actual": 0.11881186783811037,
+      "expected": 0.1188118809876202,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/12/0.002 SW峰值",
+      "actual": 24.589578766128977,
+      "expected": 24.58980454609228,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/12/0.002 10%时间",
+      "actual": 0.00005735002083972693,
+      "expected": 0.000057597237491684966,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/12/0.002 能量相对残差",
+      "actual": 0.000025154143758407746,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/12/0.002 关断KCL",
+      "actual": -0.000007142910441754937,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/24/0.001 导通电流",
+      "actual": 0.11880699957426878,
+      "expected": 0.11880700044888412,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/24/0.001 SW峰值",
+      "actual": 36.58944682441147,
+      "expected": 36.58980242111429,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/24/0.001 10%时间",
+      "actual": 0.00003450247735077919,
+      "expected": 0.000034749525856758707,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/24/0.001 能量相对残差",
+      "actual": 0.00005381760503142023,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/24/0.001 关断KCL",
+      "actual": -0.000018978419586658167,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/24/0.002 导通电流",
+      "actual": 0.11881186783811037,
+      "expected": 0.1188118809876202,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/24/0.002 SW峰值",
+      "actual": 36.58944893900165,
+      "expected": 36.58980454609228,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/24/0.002 10%时间",
+      "actual": 0.00003450361133289356,
+      "expected": 0.000034750673853917196,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/24/0.002 能量相对残差",
+      "actual": 0.0000539292886306086,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.01/24/0.002 关断KCL",
+      "actual": -0.000018977657466357288,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/0/0.001 导通电流",
+      "actual": 0.11804940259006436,
+      "expected": 0.11805037622420715,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/0/0.001 SW峰值",
+      "actual": 12.590437868124644,
+      "expected": 12.589471928005633,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/0/0.001 10%时间",
+      "actual": 0.00039649256193188885,
+      "expected": 0.00039673840765606103,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/0/0.001 能量相对残差",
+      "actual": 0.0000017229208481761184,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/0/0.001 关断KCL",
+      "actual": -1.6178344129465277e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/0/0.002 导通电流",
+      "actual": 0.11880696880193503,
+      "expected": 0.11880700044888412,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/0/0.002 SW峰值",
+      "actual": 12.59076753587556,
+      "expected": 12.58980242111429,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/0/0.002 10%时间",
+      "actual": 0.0003967911900613235,
+      "expected": 0.0003970411297985855,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/0/0.002 能量相对残差",
+      "actual": 0.000001721968152234924,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/0/0.002 关断KCL",
+      "actual": -1.6230037615162608e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/12/0.001 导通电流",
+      "actual": 0.11805132538774069,
+      "expected": 0.11805037622420715,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/12/0.001 SW峰值",
+      "actual": 24.590372928068845,
+      "expected": 24.589471928005633,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/12/0.001 10%时间",
+      "actual": 0.00011443578675577812,
+      "expected": 0.00011468266316672367,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/12/0.001 能量相对残差",
+      "actual": 0.000006112392871488926,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/12/0.001 关断KCL",
+      "actual": -0.0000018215914320259183,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/12/0.002 导通电流",
+      "actual": 0.11880698115691048,
+      "expected": 0.11880700044888412,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/12/0.002 SW峰值",
+      "actual": 24.590702178853693,
+      "expected": 24.58980242111429,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/12/0.002 10%时间",
+      "actual": 0.00011494132419369481,
+      "expected": 0.00011519120074452788,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/12/0.002 能量相对残差",
+      "actual": 0.000006621015061384061,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/12/0.002 关断KCL",
+      "actual": -0.0000018203621853686797,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/24/0.001 导通电流",
+      "actual": 0.11805132538774069,
+      "expected": 0.11805037622420715,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/24/0.001 SW峰值",
+      "actual": 36.590307064859346,
+      "expected": 36.589471928005636,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/24/0.001 10%时间",
+      "actual": 0.00006889490134254065,
+      "expected": 0.00006914267985658875,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/24/0.001 能量相对残差",
+      "actual": 0.000014102276470640459,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/24/0.001 关断KCL",
+      "actual": -0.0000048514975790483875,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/24/0.002 导通电流",
+      "actual": 0.11880698115691048,
+      "expected": 0.11880700044888412,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/24/0.002 SW峰值",
+      "actual": 36.590636733781075,
+      "expected": 36.58980242111429,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/24/0.002 10%时间",
+      "actual": 0.00006924930108047518,
+      "expected": 0.00006949905171351741,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/24/0.002 能量相对残差",
+      "actual": 0.000014800711604282726,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.02/24/0.002 关断KCL",
+      "actual": -0.000004821188491954585,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/0/0.001 导通电流",
+      "actual": 0.10304286378714987,
+      "expected": 0.10305083583206474,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/0/0.001 SW峰值",
+      "actual": 12.582449870796221,
+      "expected": 12.582442473071355,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/0/0.001 10%时间",
+      "actual": 0.0009749155365519173,
+      "expected": 0.0009750658170121966,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/0/0.001 能量相对残差",
+      "actual": 2.7861257994950754e-7,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/0/0.001 关断KCL",
+      "actual": -2.3391646249975978e-8,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/0/0.002 导通电流",
+      "actual": 0.11671790997525473,
+      "expected": 0.11672109238626256,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/0/0.002 SW峰值",
+      "actual": 12.58888570116108,
+      "expected": 12.588886134423452,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/0/0.002 10%时间",
+      "actual": 0.0009902572828611308,
+      "expected": 0.0009904975700863938,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/0/0.002 能量相对残差",
+      "actual": 2.7537798919677754e-7,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/0/0.002 关断KCL",
+      "actual": -2.563013712951175e-8,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/12/0.001 导通电流",
+      "actual": 0.10305878244200543,
+      "expected": 0.10305083583206474,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/12/0.001 SW峰值",
+      "actual": 24.582427728632627,
+      "expected": 24.582442473071353,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/12/0.001 10%时间",
+      "actual": 0.00026031486880341245,
+      "expected": 0.0002604982639304538,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/12/0.001 能量相对残差",
+      "actual": 0.0000012252324306818463,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/12/0.001 关断KCL",
+      "actual": -3.061597690986425e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/12/0.002 导通电流",
+      "actual": 0.11672002380534653,
+      "expected": 0.11672109238626256,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/12/0.002 SW峰值",
+      "actual": 24.588860038076216,
+      "expected": 24.588886134423454,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/12/0.002 10%时间",
+      "actual": 0.0002842165635136237,
+      "expected": 0.0002844617532239695,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/12/0.002 能量相对残差",
+      "actual": 0.0000010352278564136668,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/12/0.002 关断KCL",
+      "actual": -2.9277447160930236e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/24/0.001 导通电流",
+      "actual": 0.10305878244200543,
+      "expected": 0.10305083583206474,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/24/0.001 SW峰值",
+      "actual": 36.582397591834535,
+      "expected": 36.58244247307135,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/24/0.001 10%时间",
+      "actual": 0.00015453791784348627,
+      "expected": 0.000154743850260048,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/24/0.001 能量相对残差",
+      "actual": 0.000002845825408574622,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/24/0.001 关断KCL",
+      "actual": -8.411374824144324e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/24/0.002 导通电流",
+      "actual": 0.11672002380534653,
+      "expected": 0.11672109238626256,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/24/0.002 SW峰值",
+      "actual": 36.588833425888616,
+      "expected": 36.588886134423454,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/24/0.002 10%时间",
+      "actual": 0.00017103946832206212,
+      "expected": 0.00017128630790216146,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/24/0.002 能量相对残差",
+      "actual": 0.0000020827364638996204,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 100/0.05/24/0.002 关断KCL",
+      "actual": -7.805417723812588e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/0/0.001 导通电流",
+      "actual": 0.05429863651085028,
+      "expected": 0.054298642520231595,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/0/0.001 SW峰值",
+      "actual": 12.549188995844432,
+      "expected": 12.549298460941543,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/0/0.001 10%时间",
+      "actual": 0.00009113968963541091,
+      "expected": 0.00009125280397021537,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/0/0.001 能量相对残差",
+      "actual": 0.000006777691500304501,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/0/0.001 关断KCL",
+      "actual": -2.881210542267465e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/0/0.002 导通电流",
+      "actual": 0.05429863652465651,
+      "expected": 0.05429864253393665,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/0/0.002 SW峰值",
+      "actual": 12.549188995857488,
+      "expected": 12.5492984609546,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/0/0.002 10%时间",
+      "actual": 0.00009113968963787595,
+      "expected": 0.00009125280397274885,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/0/0.002 能量相对残差",
+      "actual": 0.000006777691497691866,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/0/0.002 关断KCL",
+      "actual": -2.8812105394225186e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/12/0.001 导通电流",
+      "actual": 0.054298636510919145,
+      "expected": 0.054298642520231595,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/12/0.001 SW峰值",
+      "actual": 24.549059498081068,
+      "expected": 24.549298460941543,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/12/0.001 10%时间",
+      "actual": 0.000026225191620483966,
+      "expected": 0.000026338202933146118,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/12/0.001 能量相对残差",
+      "actual": 0.000026060819130973166,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/12/0.001 关断KCL",
+      "actual": -0.00000326136894528298,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/12/0.002 导通电流",
+      "actual": 0.0542986365246565,
+      "expected": 0.05429864253393665,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/12/0.002 SW峰值",
+      "actual": 24.549059498094092,
+      "expected": 24.5492984609546,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/12/0.002 10%时间",
+      "actual": 0.000026225191625032195,
+      "expected": 0.00002633820293773528,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/12/0.002 能量相对残差",
+      "actual": 0.000026060819208985927,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/12/0.002 关断KCL",
+      "actual": -0.000003261368946129525,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/24/0.001 导通电流",
+      "actual": 0.054298636510919145,
+      "expected": 0.054298642520231595,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/24/0.001 SW峰值",
+      "actual": 36.54892967533053,
+      "expected": 36.54929846094154,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/24/0.001 10%时间",
+      "actual": 0.00001577300472718193,
+      "expected": 0.000015885919244929855,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/24/0.001 能量相对残差",
+      "actual": 0.00005538609411931745,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/24/0.001 关断KCL",
+      "actual": -0.000008669598116974624,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/24/0.002 导通电流",
+      "actual": 0.05429863652465653,
+      "expected": 0.05429864253393665,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/24/0.002 SW峰值",
+      "actual": 36.54892967534359,
+      "expected": 36.5492984609546,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/24/0.002 10%时间",
+      "actual": 0.000015773004730378157,
+      "expected": 0.000015885919248150443,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/24/0.002 能量相对残差",
+      "actual": 0.00005538609468105815,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.01/24/0.002 关断KCL",
+      "actual": -0.000008669598113522524,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/0/0.001 导通电流",
+      "actual": 0.054297771731993655,
+      "expected": 0.05429777988329968,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/0/0.001 SW峰值",
+      "actual": 12.549188178062197,
+      "expected": 12.549297639125943,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/0/0.001 10%时间",
+      "actual": 0.00018227907045052089,
+      "expected": 0.00018250528902404234,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/0/0.001 能量相对残差",
+      "actual": 0.000006777700530221688,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/0/0.001 关断KCL",
+      "actual": -2.881171175623745e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/0/0.002 导通电流",
+      "actual": 0.05429863651085028,
+      "expected": 0.054298642520231595,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/0/0.002 SW峰值",
+      "actual": 12.549188995844432,
+      "expected": 12.549298460941543,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/0/0.002 10%时间",
+      "actual": 0.00018227937927082181,
+      "expected": 0.00018250560794043073,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/0/0.002 能量相对残差",
+      "actual": 0.000006777691500304501,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/0/0.002 关断KCL",
+      "actual": -2.881210542267465e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/12/0.001 导通电流",
+      "actual": 0.05429777604517387,
+      "expected": 0.05429777988329968,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/12/0.001 SW峰值",
+      "actual": 24.549058682338057,
+      "expected": 24.549297639125943,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/12/0.001 10%时间",
+      "actual": 0.000052449813463104154,
+      "expected": 0.00005267582815425074,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/12/0.001 能量相对残差",
+      "actual": 0.000026051291975614772,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/12/0.001 关断KCL",
+      "actual": -0.0000032613974836166117,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/12/0.002 导通电流",
+      "actual": 0.054298636510919145,
+      "expected": 0.054298642520231595,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/12/0.002 SW峰值",
+      "actual": 24.549059498081068,
+      "expected": 24.549298460941543,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/12/0.002 10%时间",
+      "actual": 0.00005245038324096793,
+      "expected": 0.000052676405866292237,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/12/0.002 能量相对残差",
+      "actual": 0.000026056310517045053,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/12/0.002 关断KCL",
+      "actual": -0.00000326136894528298,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/24/0.001 导通电流",
+      "actual": 0.054297776045173884,
+      "expected": 0.05429777988329968,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/24/0.001 SW峰值",
+      "actual": 36.548928857537746,
+      "expected": 36.54929763912594,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/24/0.001 10%时间",
+      "actual": 0.00003154560903414474,
+      "expected": 0.000031771433074490926,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/24/0.001 能量相对残差",
+      "actual": 0.00005534705601426149,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/24/0.001 关断KCL",
+      "actual": -0.000008669732165967404,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/24/0.002 导通电流",
+      "actual": 0.054298636510919145,
+      "expected": 0.054298642520231595,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/24/0.002 SW峰值",
+      "actual": 36.54892967533053,
+      "expected": 36.54929846094154,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/24/0.002 10%时间",
+      "actual": 0.00003154600945436386,
+      "expected": 0.00003177183848985971,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/24/0.002 能量相对残差",
+      "actual": 0.000055382426849733896,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.02/24/0.002 关断KCL",
+      "actual": -0.000008669598116974624,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/0/0.001 导通电流",
+      "actual": 0.05364447244424255,
+      "expected": 0.053645200056938076,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/0/0.001 SW峰值",
+      "actual": 12.548640883709366,
+      "expected": 12.548672169363192,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/0/0.001 10%时间",
+      "actual": 0.0004554122965915858,
+      "expected": 0.00045565419972747994,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/0/0.001 能量相对残差",
+      "actual": 0.000001325246747789092,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/0/0.001 关断KCL",
+      "actual": -5.5648119725680434e-8,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/0/0.002 导通电流",
+      "actual": 0.054290746759188345,
+      "expected": 0.05429077885538375,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/0/0.002 SW峰值",
+      "actual": 12.549258319538096,
+      "expected": 12.549290968914635,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/0/0.002 10%时间",
+      "actual": 0.0004560067669843893,
+      "expected": 0.00045625675111861386,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/0/0.002 能量相对残差",
+      "actual": 0.000001323979613621108,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/0/0.002 关断KCL",
+      "actual": -5.611293590460432e-8,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/12/0.001 导通电流",
+      "actual": 0.05364591655107511,
+      "expected": 0.053645200056938076,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/12/0.001 SW峰值",
+      "actual": 24.548584382654266,
+      "expected": 24.54867216936319,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/12/0.001 10%时间",
+      "actual": 0.0001303490023766981,
+      "expected": 0.00013059317145092315,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/12/0.001 能量相对残差",
+      "actual": 0.000004402247382737214,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/12/0.001 关断KCL",
+      "actual": -6.386537811734746e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/12/0.002 导通电流",
+      "actual": 0.054290764176323496,
+      "expected": 0.05429077885538375,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/12/0.002 SW峰值",
+      "actual": 24.549201132809117,
+      "expected": 24.549290968914633,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/12/0.002 10%时间",
+      "actual": 0.00013142801306784873,
+      "expected": 0.0001316778483418446,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/12/0.002 能量相对残差",
+      "actual": 0.000004803412088746485,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/12/0.002 关断KCL",
+      "actual": -6.36027679572416e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/24/0.001 导通电流",
+      "actual": 0.05364591655107511,
+      "expected": 0.053645200056938076,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/24/0.001 SW峰值",
+      "actual": 36.54852642883087,
+      "expected": 36.54867216936319,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/24/0.001 10%时间",
+      "actual": 0.00007841409731254036,
+      "expected": 0.0000786601107943724,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/24/0.001 能量相对残差",
+      "actual": 0.000010896218198008907,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/24/0.001 关断KCL",
+      "actual": -0.00000169743422586514,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/24/0.002 导通电流",
+      "actual": 0.05429076417632351,
+      "expected": 0.05429077885538375,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/24/0.002 SW峰值",
+      "actual": 36.549143866213754,
+      "expected": 36.54929096891463,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/24/0.002 10%时间",
+      "actual": 0.00007917059141957384,
+      "expected": 0.00007942035674163193,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/24/0.002 能量相对残差",
+      "actual": 0.000008005874557531243,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流 220/0.05/24/0.002 关断KCL",
+      "actual": -0.0000016888655709907345,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 0/0.001 导通电流",
+      "actual": 0.11805132538774069,
+      "expected": 0.11805037622420715,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 0/0.001 SW峰值",
+      "actual": 36.590307064859346,
+      "expected": 36.589471928005636,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 0/0.001 10%时间",
+      "actual": 0.00006889490134254065,
+      "expected": 0.00006914267985658875,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 0/0.001 能量相对残差",
+      "actual": 0.000014102276470640459,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 0/0.001 关断KCL",
+      "actual": -0.0000048514975790483875,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 0/0.002 导通电流",
+      "actual": 0.11880698115691048,
+      "expected": 0.11880700044888412,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 0/0.002 SW峰值",
+      "actual": 36.590636733781075,
+      "expected": 36.58980242111429,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 0/0.002 10%时间",
+      "actual": 0.00006924930108047518,
+      "expected": 0.00006949905171351741,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 0/0.002 能量相对残差",
+      "actual": 0.000014800711604282726,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 0/0.002 关断KCL",
+      "actual": -0.000004821188491954585,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 1/0.001 导通电流",
+      "actual": 0.11804940259006436,
+      "expected": 0.11805037622420715,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 1/0.001 SW峰值",
+      "actual": 12.590437868124644,
+      "expected": 12.589471928005633,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 1/0.001 10%时间",
+      "actual": 0.00039649256193188885,
+      "expected": 0.00039673840765606103,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 1/0.001 能量相对残差",
+      "actual": 0.0000017229208481761184,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 1/0.001 关断KCL",
+      "actual": -1.6178344129465277e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 1/0.002 导通电流",
+      "actual": 0.11880696880193503,
+      "expected": 0.11880700044888412,
+      "tolerance": 0.0003,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 1/0.002 SW峰值",
+      "actual": 12.59076753587556,
+      "expected": 12.58980242111429,
+      "tolerance": 0.025,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 1/0.002 10%时间",
+      "actual": 0.0003967911900613235,
+      "expected": 0.0003970411297985855,
+      "tolerance": 0.000003,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 1/0.002 能量相对残差",
+      "actual": 0.000001721968152234924,
+      "expected": 0,
+      "tolerance": 0.008,
+      "passed": true
+    },
+    {
+      "name": "续流诊断 1/0.002 关断KCL",
+      "actual": -1.6230037615162608e-7,
+      "expected": 0,
+      "tolerance": 0.00005,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/true/0 GLOAD",
+      "actual": 0.01216544995584238,
+      "expected": 0.012165449955842378,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/true/0 SGND",
+      "actual": 0.01216544995584238,
+      "expected": 0.012165449955842378,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/true/0 本地信号",
+      "actual": 1.6500000000000001,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/true/0 MCU电压",
+      "actual": 1.6621654499558425,
+      "expected": 1.6621654499558423,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/true/0 KCL",
+      "actual": -3.076411236038915e-17,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/true/0 三电压叠加",
+      "actual": 1.6621654499558425,
+      "expected": 1.6621654499558425,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/true/0.1 GLOAD",
+      "actual": 0.012165449945866708,
+      "expected": 0.012165449945866706,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/true/0.1 SGND",
+      "actual": 0.012165449945866708,
+      "expected": 0.012165449945866706,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/true/0.1 MCU电压",
+      "actual": 1.7621654499458668,
+      "expected": 1.7621654499458668,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/true/0.1 KCL",
+      "actual": -8.602311722744974e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/true/0.1 三电压叠加",
+      "actual": 1.7621654499458668,
+      "expected": 1.7621654499458668,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/false/0 GLOAD",
+      "actual": -1.6449999998355358e-10,
+      "expected": -1.6449999998355356e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/false/0 SGND",
+      "actual": -1.6449999998355358e-10,
+      "expected": -1.6449999998355356e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/false/0 MCU电压",
+      "actual": 1.6499999998355,
+      "expected": 1.6499999998355,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/false/0 KCL",
+      "actual": 4.137377512207014e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/false/0 三电压叠加",
+      "actual": 1.6499999998355,
+      "expected": 1.6499999998355,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/false/0.1 GLOAD",
+      "actual": -1.7449999998255258e-10,
+      "expected": -1.7449999998255258e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/false/0.1 SGND",
+      "actual": -1.7449999998255258e-10,
+      "expected": -1.7449999998255258e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/false/0.1 MCU电压",
+      "actual": 1.7499999998255,
+      "expected": 1.7499999998255,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/false/0.1 KCL",
+      "actual": 4.1372761825819764e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/40/false/0.1 三电压叠加",
+      "actual": 1.7499999998255,
+      "expected": 1.7499999998255,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/true/0 GLOAD",
+      "actual": 0.004945598252077642,
+      "expected": 0.004945598252077642,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/true/0 SGND",
+      "actual": 0.004945598252077642,
+      "expected": 0.004945598252077642,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/true/0 MCU电压",
+      "actual": 1.6549455982520775,
+      "expected": 1.6549455982520775,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/true/0 KCL",
+      "actual": -7.961742229203297e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/true/0 三电压叠加",
+      "actual": 1.6549455982520775,
+      "expected": 1.6549455982520775,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/true/0.1 GLOAD",
+      "actual": 0.004945598242087532,
+      "expected": 0.004945598242087532,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/true/0.1 SGND",
+      "actual": 0.004945598242087532,
+      "expected": 0.004945598242087532,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/true/0.1 MCU电压",
+      "actual": 1.7549455982420876,
+      "expected": 1.7549455982420876,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/true/0.1 KCL",
+      "actual": 7.26117877339922e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/true/0.1 三电压叠加",
+      "actual": 1.7549455982420876,
+      "expected": 1.7549455982420876,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/false/0 GLOAD",
+      "actual": -1.6449999998358357e-10,
+      "expected": -1.6449999998358354e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/false/0 SGND",
+      "actual": -1.6449999998358357e-10,
+      "expected": -1.6449999998358354e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/false/0 MCU电压",
+      "actual": 1.6499999998355,
+      "expected": 1.6499999998355,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/false/0 KCL",
+      "actual": 4.140376041927519e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/false/0 三电压叠加",
+      "actual": 1.6499999998355,
+      "expected": 1.6499999998355,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/false/0.1 GLOAD",
+      "actual": -1.7449999998258257e-10,
+      "expected": -1.7449999998258257e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/false/0.1 SGND",
+      "actual": -1.7449999998258257e-10,
+      "expected": -1.7449999998258257e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/false/0.1 MCU电压",
+      "actual": 1.7499999998255,
+      "expected": 1.7499999998255,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/false/0.1 KCL",
+      "actual": 4.140274712302481e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/100/false/0.1 三电压叠加",
+      "actual": 1.7499999998255,
+      "expected": 1.7499999998255,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/true/0 GLOAD",
+      "actual": 0.0015101176240864245,
+      "expected": 0.0015101176240864243,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/true/0 SGND",
+      "actual": 0.0015101176240864245,
+      "expected": 0.0015101176240864243,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/true/0 本地信号",
+      "actual": 1.6500000000000001,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/true/0 MCU电压",
+      "actual": 1.6515101176240865,
+      "expected": 1.6515101176240863,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/true/0 KCL",
+      "actual": 2.73572203218744e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/true/0 三电压叠加",
+      "actual": 1.6515101176240865,
+      "expected": 1.6515101176240865,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/true/0.1 GLOAD",
+      "actual": 0.001510117614089445,
+      "expected": 0.0015101176140894445,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/true/0.1 SGND",
+      "actual": 0.001510117614089445,
+      "expected": 0.0015101176140894445,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/true/0.1 MCU电压",
+      "actual": 1.7515101176140895,
+      "expected": 1.7515101176140895,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/true/0.1 KCL",
+      "actual": -1.8507345229116035e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/true/0.1 三电压叠加",
+      "actual": 1.7515101176140895,
+      "expected": 1.7515101176140895,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/false/0 GLOAD",
+      "actual": -1.6449999998369855e-10,
+      "expected": -1.6449999998369855e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/false/0 SGND",
+      "actual": -1.6449999998369855e-10,
+      "expected": -1.6449999998369855e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/false/0 MCU电压",
+      "actual": 1.6499999998355,
+      "expected": 1.6499999998355,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/false/0 KCL",
+      "actual": 4.151873852442006e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/false/0 三电压叠加",
+      "actual": 1.6499999998355,
+      "expected": 1.6499999998355,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/false/0.1 GLOAD",
+      "actual": -1.7449999998269757e-10,
+      "expected": -1.7449999998269754e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/false/0.1 SGND",
+      "actual": -1.7449999998269757e-10,
+      "expected": -1.7449999998269754e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/false/0.1 MCU电压",
+      "actual": 1.7499999998255,
+      "expected": 1.7499999998255,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/false/0.1 KCL",
+      "actual": 4.1517745907684996e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.1/330/false/0.1 三电压叠加",
+      "actual": 1.7499999998255,
+      "expected": 1.7499999998255,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/true/0 GLOAD",
+      "actual": 0.06024096301060387,
+      "expected": 0.06024096301060386,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/true/0 SGND",
+      "actual": 0.06024096301060387,
+      "expected": 0.06024096301060386,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/true/0 本地信号",
+      "actual": 1.6500000000000001,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/true/0 MCU电压",
+      "actual": 1.710240963010604,
+      "expected": 1.7102409630106037,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/true/0 KCL",
+      "actual": -1.415052828092728e-17,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/true/0 三电压叠加",
+      "actual": 1.710240963010604,
+      "expected": 1.710240963010604,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/true/0.1 GLOAD",
+      "actual": 0.060240962961206276,
+      "expected": 0.06024096296120626,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/true/0.1 SGND",
+      "actual": 0.060240962961206276,
+      "expected": 0.06024096296120626,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/true/0.1 本地信号",
+      "actual": 1.7500000000000002,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/true/0.1 MCU电压",
+      "actual": 1.8102409629612064,
+      "expected": 1.8102409629612062,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/true/0.1 KCL",
+      "actual": -5.827093677464505e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/true/0.1 三电压叠加",
+      "actual": 1.8102409629612064,
+      "expected": 1.8102409629612064,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/false/0 GLOAD",
+      "actual": -8.224999995884387e-10,
+      "expected": -8.224999995884388e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/false/0 SGND",
+      "actual": -8.224999995884387e-10,
+      "expected": -8.224999995884388e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/false/0 MCU电压",
+      "actual": 1.6499999991774998,
+      "expected": 1.6499999991774998,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/false/0 KCL",
+      "actual": 4.130793154531092e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/false/0 三电压叠加",
+      "actual": 1.6499999991774998,
+      "expected": 1.6499999991774998,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/false/0.1 GLOAD",
+      "actual": -8.724999995634137e-10,
+      "expected": -8.724999995634138e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/false/0.1 SGND",
+      "actual": -8.724999995634137e-10,
+      "expected": -8.724999995634138e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/false/0.1 MCU电压",
+      "actual": 1.7499999991275,
+      "expected": 1.7499999991275,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/false/0.1 KCL",
+      "actual": 4.1302927102604975e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/40/false/0.1 三电压叠加",
+      "actual": 1.7499999991275,
+      "expected": 1.7499999991275,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/true/0 GLOAD",
+      "actual": 0.024630541038730618,
+      "expected": 0.024630541038730618,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/true/0 SGND",
+      "actual": 0.024630541038730618,
+      "expected": 0.024630541038730618,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/true/0 MCU电压",
+      "actual": 1.6746305410387305,
+      "expected": 1.6746305410387305,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/true/0 KCL",
+      "actual": -2.6324007630298197e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/true/0 三电压叠加",
+      "actual": 1.6746305410387305,
+      "expected": 1.6746305410387305,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/true/0.1 GLOAD",
+      "actual": 0.024630540988976924,
+      "expected": 0.024630540988976924,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/true/0.1 SGND",
+      "actual": 0.024630540988976924,
+      "expected": 0.024630540988976924,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/true/0.1 本地信号",
+      "actual": 1.7500000000000002,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/true/0.1 MCU电压",
+      "actual": 1.774630540988977,
+      "expected": 1.7746305409889769,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/true/0.1 KCL",
+      "actual": -1.2475041690157232e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/true/0.1 三电压叠加",
+      "actual": 1.774630540988977,
+      "expected": 1.774630540988977,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/false/0 GLOAD",
+      "actual": -8.224999995885886e-10,
+      "expected": -8.224999995885887e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/false/0 SGND",
+      "actual": -8.224999995885886e-10,
+      "expected": -8.224999995885887e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/false/0 MCU电压",
+      "actual": 1.6499999991774998,
+      "expected": 1.6499999991774998,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/false/0 KCL",
+      "actual": 4.133791684251597e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/false/0 三电压叠加",
+      "actual": 1.6499999991774998,
+      "expected": 1.6499999991774998,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/false/0.1 GLOAD",
+      "actual": -8.724999995635636e-10,
+      "expected": -8.724999995635637e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/false/0.1 SGND",
+      "actual": -8.724999995635636e-10,
+      "expected": -8.724999995635637e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/false/0.1 MCU电压",
+      "actual": 1.7499999991275,
+      "expected": 1.7499999991275,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/false/0.1 KCL",
+      "actual": 4.133291239981002e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/100/false/0.1 三电压叠加",
+      "actual": 1.7499999991275,
+      "expected": 1.7499999991275,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/true/0 GLOAD",
+      "actual": 0.0075414773021927175,
+      "expected": 0.007541477302192716,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/true/0 SGND",
+      "actual": 0.0075414773021927175,
+      "expected": 0.007541477302192716,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/true/0 MCU电压",
+      "actual": 1.6575414773021926,
+      "expected": 1.6575414773021926,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/true/0 KCL",
+      "actual": -1.6995951833132114e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/true/0 三电压叠加",
+      "actual": 1.6575414773021926,
+      "expected": 1.6575414773021926,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/true/0.1 GLOAD",
+      "actual": 0.007541477252268132,
+      "expected": 0.0075414772522681296,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/true/0.1 SGND",
+      "actual": 0.007541477252268132,
+      "expected": 0.0075414772522681296,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/true/0.1 MCU电压",
+      "actual": 1.7575414772522682,
+      "expected": 1.7575414772522682,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/true/0.1 KCL",
+      "actual": -2.0492510456842766e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/true/0.1 三电压叠加",
+      "actual": 1.7575414772522682,
+      "expected": 1.7575414772522682,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/false/0 GLOAD",
+      "actual": -8.224999995891636e-10,
+      "expected": -8.224999995891637e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/false/0 SGND",
+      "actual": -8.224999995891636e-10,
+      "expected": -8.224999995891637e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/false/0 MCU电压",
+      "actual": 1.6499999991774998,
+      "expected": 1.6499999991774998,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/false/0 KCL",
+      "actual": 4.145291562717615e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/false/0 三电压叠加",
+      "actual": 1.6499999991774998,
+      "expected": 1.6499999991774998,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/false/0.1 GLOAD",
+      "actual": -8.724999995641386e-10,
+      "expected": -8.724999995641387e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/false/0.1 SGND",
+      "actual": -8.724999995641386e-10,
+      "expected": -8.724999995641387e-10,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/false/0.1 MCU电压",
+      "actual": 1.7499999991275,
+      "expected": 1.7499999991275,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/false/0.1 KCL",
+      "actual": 4.1447911184470207e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/0.5/330/false/0.1 三电压叠加",
+      "actual": 1.7499999991275,
+      "expected": 1.7499999991275,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/true/0 GLOAD",
+      "actual": 0.11904761732069162,
+      "expected": 0.11904761732069159,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/true/0 SGND",
+      "actual": 0.11904761732069162,
+      "expected": 0.11904761732069159,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/true/0 MCU电压",
+      "actual": 1.7690476173206915,
+      "expected": 1.7690476173206915,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/true/0 KCL",
+      "actual": -1.4469787530533705e-17,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/true/0 三电压叠加",
+      "actual": 1.7690476173206915,
+      "expected": 1.7690476173206915,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/true/0.1 GLOAD",
+      "actual": 0.11904761722307258,
+      "expected": 0.11904761722307254,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/true/0.1 SGND",
+      "actual": 0.11904761722307258,
+      "expected": 0.11904761722307254,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/true/0.1 MCU电压",
+      "actual": 1.8690476172230726,
+      "expected": 1.8690476172230726,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/true/0.1 KCL",
+      "actual": -1.9975919207100843e-17,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/true/0.1 三电压叠加",
+      "actual": 1.8690476172230726,
+      "expected": 1.8690476172230726,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/false/0 GLOAD",
+      "actual": -1.644999998353555e-9,
+      "expected": -1.644999998353555e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/false/0 SGND",
+      "actual": -1.644999998353555e-9,
+      "expected": -1.644999998353555e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/false/0 MCU电压",
+      "actual": 1.649999998355,
+      "expected": 1.649999998355,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/false/0 KCL",
+      "actual": 4.122566843339252e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/false/0 三电压叠加",
+      "actual": 1.649999998355,
+      "expected": 1.649999998355,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/false/0.1 GLOAD",
+      "actual": -1.744999998253455e-9,
+      "expected": -1.744999998253455e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/false/0.1 SGND",
+      "actual": -1.744999998253455e-9,
+      "expected": -1.744999998253455e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/false/0.1 MCU电压",
+      "actual": 1.749999998255,
+      "expected": 1.749999998255,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/false/0.1 KCL",
+      "actual": 4.1215680227495944e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/40/false/0.1 三电压叠加",
+      "actual": 1.749999998255,
+      "expected": 1.749999998255,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/true/0 GLOAD",
+      "actual": 0.049019606160774706,
+      "expected": 0.049019606160774706,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/true/0 SGND",
+      "actual": 0.049019606160774706,
+      "expected": 0.049019606160774706,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/true/0 本地信号",
+      "actual": 1.6500000000000001,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/true/0 MCU电压",
+      "actual": 1.6990196061607747,
+      "expected": 1.6990196061607745,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/true/0 KCL",
+      "actual": -7.538599020827561e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/true/0 三电压叠加",
+      "actual": 1.6990196061607747,
+      "expected": 1.6990196061607747,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/true/0.1 GLOAD",
+      "actual": 0.049019606061755094,
+      "expected": 0.049019606061755094,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/true/0.1 SGND",
+      "actual": 0.049019606061755094,
+      "expected": 0.049019606061755094,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/true/0.1 MCU电压",
+      "actual": 1.7990196060617551,
+      "expected": 1.7990196060617551,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/true/0.1 KCL",
+      "actual": 7.773351431104038e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/true/0.1 三电压叠加",
+      "actual": 1.7990196060617551,
+      "expected": 1.7990196060617551,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/false/0 GLOAD",
+      "actual": -1.6449999983538548e-9,
+      "expected": -1.6449999983538548e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/false/0 SGND",
+      "actual": -1.6449999983538548e-9,
+      "expected": -1.6449999983538548e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/false/0 MCU电压",
+      "actual": 1.649999998355,
+      "expected": 1.649999998355,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/false/0 KCL",
+      "actual": 4.125565373059757e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/false/0 三电压叠加",
+      "actual": 1.649999998355,
+      "expected": 1.649999998355,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/false/0.1 GLOAD",
+      "actual": -1.7449999982537548e-9,
+      "expected": -1.7449999982537548e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/false/0.1 SGND",
+      "actual": -1.7449999982537548e-9,
+      "expected": -1.7449999982537548e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/false/0.1 MCU电压",
+      "actual": 1.749999998255,
+      "expected": 1.749999998255,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/false/0.1 KCL",
+      "actual": 4.124566552470099e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/100/false/0.1 三电压叠加",
+      "actual": 1.749999998255,
+      "expected": 1.749999998255,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/true/0 GLOAD",
+      "actual": 0.01506023930381043,
+      "expected": 0.01506023930381042,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/true/0 SGND",
+      "actual": 0.01506023930381043,
+      "expected": 0.01506023930381042,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/true/0 MCU电压",
+      "actual": 1.6650602393038103,
+      "expected": 1.6650602393038103,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/true/0 KCL",
+      "actual": -5.515714357168412e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/true/0 三电压叠加",
+      "actual": 1.6650602393038103,
+      "expected": 1.6650602393038103,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/true/0.1 GLOAD",
+      "actual": 0.015060239204111633,
+      "expected": 0.015060239204111625,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/true/0.1 SGND",
+      "actual": 0.015060239204111633,
+      "expected": 0.015060239204111625,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/true/0.1 MCU电压",
+      "actual": 1.7650602392041117,
+      "expected": 1.7650602392041117,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/true/0.1 KCL",
+      "actual": -4.080872597768364e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/true/0.1 三电压叠加",
+      "actual": 1.7650602392041117,
+      "expected": 1.7650602392041117,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/false/0 GLOAD",
+      "actual": -1.6449999983550047e-9,
+      "expected": -1.6449999983550047e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/false/0 SGND",
+      "actual": -1.6449999983550047e-9,
+      "expected": -1.6449999983550047e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/false/0 MCU电压",
+      "actual": 1.649999998355,
+      "expected": 1.649999998355,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/false/0 KCL",
+      "actual": 4.1370652515257754e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/false/0 三电压叠加",
+      "actual": 1.649999998355,
+      "expected": 1.649999998355,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/false/0.1 GLOAD",
+      "actual": -1.7449999982549048e-9,
+      "expected": -1.7449999982549048e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/false/0.1 SGND",
+      "actual": -1.7449999982549048e-9,
+      "expected": -1.7449999982549048e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/false/0.1 MCU电压",
+      "actual": 1.749999998255,
+      "expected": 1.749999998255,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/false/0.1 KCL",
+      "actual": 4.1360664309361176e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 0/1/330/false/0.1 三电压叠加",
+      "actual": 1.749999998255,
+      "expected": 1.749999998255,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/true/0 GLOAD",
+      "actual": 0.012165450121654504,
+      "expected": 0.012165450121654502,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/true/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/true/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/true/0 KCL",
+      "actual": -1.3877787807814457e-17,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/true/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/true/0.1 GLOAD",
+      "actual": 0.012165450121654504,
+      "expected": 0.012165450121654502,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/true/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/true/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/true/0.1 KCL",
+      "actual": -1.3877787807814457e-17,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/true/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/false/0 GLOAD",
+      "actual": 4.999999999799499e-13,
+      "expected": 4.9999999997995e-13,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/false/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/false/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/false/0 KCL",
+      "actual": 4.1390235612363163e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/false/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/false/0.1 GLOAD",
+      "actual": 4.999999999799499e-13,
+      "expected": 4.9999999997995e-13,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/false/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/false/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/false/0.1 KCL",
+      "actual": 4.1390235612363163e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/40/false/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/true/0 GLOAD",
+      "actual": 0.004945598417408507,
+      "expected": 0.004945598417408507,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/true/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/true/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/true/0 KCL",
+      "actual": -6.938893903907228e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/true/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/true/0.1 GLOAD",
+      "actual": 0.004945598417408507,
+      "expected": 0.004945598417408507,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/true/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/true/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/true/0.1 KCL",
+      "actual": -6.938893903907228e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/true/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/false/0 GLOAD",
+      "actual": 4.9999999994995e-13,
+      "expected": 4.9999999994995e-13,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/false/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/false/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/false/0 KCL",
+      "actual": 4.142023553063177e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/false/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/false/0.1 GLOAD",
+      "actual": 4.9999999994995e-13,
+      "expected": 4.9999999994995e-13,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/false/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/false/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/false/0.1 KCL",
+      "actual": 4.142023553063177e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/100/false/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/true/0 GLOAD",
+      "actual": 0.001510117789187557,
+      "expected": 0.0015101177891875565,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/true/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/true/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/true/0 KCL",
+      "actual": -1.734723475976807e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/true/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/true/0.1 GLOAD",
+      "actual": 0.001510117789187557,
+      "expected": 0.0015101177891875565,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/true/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/true/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/true/0.1 KCL",
+      "actual": -1.734723475976807e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/true/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/false/0 GLOAD",
+      "actual": 4.999999998349501e-13,
+      "expected": 4.9999999983495e-13,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/false/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/false/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/false/0 KCL",
+      "actual": 4.153523544620295e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/false/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/false/0.1 GLOAD",
+      "actual": 4.999999998349501e-13,
+      "expected": 4.9999999983495e-13,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/false/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/false/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/false/0.1 KCL",
+      "actual": 4.153523544620295e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.1/330/false/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/true/0 GLOAD",
+      "actual": 0.06024096385542169,
+      "expected": 0.060240963855421686,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/true/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/true/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/true/0 KCL",
+      "actual": -2.7755575615628914e-17,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/true/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/true/0.1 GLOAD",
+      "actual": 0.06024096385542169,
+      "expected": 0.060240963855421686,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/true/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/true/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/true/0.1 KCL",
+      "actual": -2.7755575615628914e-17,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/true/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/false/0 GLOAD",
+      "actual": 2.4999999998987498e-12,
+      "expected": 2.49999999989875e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/false/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/false/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/false/0 KCL",
+      "actual": 4.1390435541270982e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/false/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/false/0.1 GLOAD",
+      "actual": 2.4999999998987498e-12,
+      "expected": 2.49999999989875e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/false/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/false/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/false/0.1 KCL",
+      "actual": 4.1390435541270982e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/40/false/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/true/0 GLOAD",
+      "actual": 0.024630541871921183,
+      "expected": 0.024630541871921183,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/true/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/true/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/true/0 KCL",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/true/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/true/0.1 GLOAD",
+      "actual": 0.024630541871921183,
+      "expected": 0.024630541871921183,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/true/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/true/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/true/0.1 KCL",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/true/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/false/0 GLOAD",
+      "actual": 2.4999999997487498e-12,
+      "expected": 2.4999999997487498e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/false/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/false/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/false/0 KCL",
+      "actual": 4.142043554031895e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/false/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/false/0.1 GLOAD",
+      "actual": 2.4999999997487498e-12,
+      "expected": 2.4999999997487498e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/false/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/false/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/false/0.1 KCL",
+      "actual": 4.142043554031895e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/100/false/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/true/0 GLOAD",
+      "actual": 0.007541478129713425,
+      "expected": 0.007541478129713423,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/true/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/true/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/true/0 KCL",
+      "actual": -1.734723475976807e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/true/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/true/0.1 GLOAD",
+      "actual": 0.007541478129713425,
+      "expected": 0.007541478129713423,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/true/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/true/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/true/0.1 KCL",
+      "actual": -1.734723475976807e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/true/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/false/0 GLOAD",
+      "actual": 2.4999999991737502e-12,
+      "expected": 2.49999999917375e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/false/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/false/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/false/0 KCL",
+      "actual": 4.1535435455890127e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/false/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/false/0.1 GLOAD",
+      "actual": 2.4999999991737502e-12,
+      "expected": 2.49999999917375e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/false/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/false/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/false/0.1 KCL",
+      "actual": 4.1535435455890127e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/0.5/330/false/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/true/0 GLOAD",
+      "actual": 0.11904761904761905,
+      "expected": 0.11904761904761904,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/true/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/true/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/true/0 KCL",
+      "actual": -1.3877787807814457e-17,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/true/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/true/0.1 GLOAD",
+      "actual": 0.11904761904761905,
+      "expected": 0.11904761904761904,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/true/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/true/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/true/0.1 KCL",
+      "actual": -1.3877787807814457e-17,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/true/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/false/0 GLOAD",
+      "actual": 4.9999999997949995e-12,
+      "expected": 4.999999999795e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/false/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/false/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/false/0 KCL",
+      "actual": 4.139068555337995e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/false/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/false/0.1 GLOAD",
+      "actual": 4.9999999997949995e-12,
+      "expected": 4.999999999795e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/false/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/false/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/false/0.1 KCL",
+      "actual": 4.139068555337995e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/40/false/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/true/0 GLOAD",
+      "actual": 0.049019607843137254,
+      "expected": 0.049019607843137254,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/true/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/true/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/true/0 KCL",
+      "actual": 6.938893903907228e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/true/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/true/0.1 GLOAD",
+      "actual": 0.049019607843137254,
+      "expected": 0.049019607843137254,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/true/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/true/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/true/0.1 KCL",
+      "actual": 6.938893903907228e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/true/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/false/0 GLOAD",
+      "actual": 4.9999999994949995e-12,
+      "expected": 4.9999999994949995e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/false/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/false/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/false/0 KCL",
+      "actual": 4.142068555242792e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/false/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/false/0.1 GLOAD",
+      "actual": 4.9999999994949995e-12,
+      "expected": 4.9999999994949995e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/false/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/false/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/false/0.1 KCL",
+      "actual": 4.142068555242792e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/100/false/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/true/0 GLOAD",
+      "actual": 0.015060240963855427,
+      "expected": 0.01506024096385542,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/true/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/true/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/true/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/true/0 KCL",
+      "actual": -6.938893903907228e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/true/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/true/0.1 GLOAD",
+      "actual": 0.015060240963855427,
+      "expected": 0.01506024096385542,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/true/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/true/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/true/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/true/0.1 KCL",
+      "actual": -6.938893903907228e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/true/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/false/0 GLOAD",
+      "actual": 4.999999998345e-12,
+      "expected": 4.9999999983449995e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/false/0 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/false/0 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/false/0 MCU电压",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/false/0 KCL",
+      "actual": 4.1535685467999096e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/false/0 三电压叠加",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/false/0.1 GLOAD",
+      "actual": 4.999999998345e-12,
+      "expected": 4.9999999983449995e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/false/0.1 SGND",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/false/0.1 本地信号",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/false/0.1 MCU电压",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/false/0.1 KCL",
+      "actual": 4.1535685467999096e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流 1/1/330/false/0.1 三电压叠加",
+      "actual": 1.75,
+      "expected": 1.75,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 0/true GLOAD",
+      "actual": 0.11904761732069162,
+      "expected": 0.11904761732069159,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 0/true SGND",
+      "actual": 0.11904761732069162,
+      "expected": 0.11904761732069159,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 0/true 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 0/true MCU电压",
+      "actual": 1.7690476173206915,
+      "expected": 1.7690476173206915,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 0/true KCL",
+      "actual": -1.4469787530533705e-17,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 0/true 三电压叠加",
+      "actual": 1.7690476173206915,
+      "expected": 1.7690476173206915,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 0/false GLOAD",
+      "actual": -1.644999998353555e-9,
+      "expected": -1.644999998353555e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 0/false SGND",
+      "actual": -1.644999998353555e-9,
+      "expected": -1.644999998353555e-9,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 0/false 本地信号",
+      "actual": 1.65,
+      "expected": 1.65,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 0/false MCU电压",
+      "actual": 1.649999998355,
+      "expected": 1.649999998355,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 0/false KCL",
+      "actual": 4.122566843339252e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 0/false 三电压叠加",
+      "actual": 1.649999998355,
+      "expected": 1.649999998355,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 1/true GLOAD",
+      "actual": 0.00012194824341467282,
+      "expected": 0.00012194824341467281,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 1/true SGND",
+      "actual": 0.00012194824341467282,
+      "expected": 0.00012194824341467281,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 1/true 本地信号",
+      "actual": 1.7499999999999998,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 1/true MCU电压",
+      "actual": 1.7501219482434145,
+      "expected": 1.7501219482434147,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 1/true KCL",
+      "actual": 1.895823931306716e-18,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 1/true 三电压叠加",
+      "actual": 1.7501219482434145,
+      "expected": 1.7501219482434145,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 1/false GLOAD",
+      "actual": -1.7449999999984534e-12,
+      "expected": -1.7449999999984534e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 1/false SGND",
+      "actual": -1.7449999999984534e-12,
+      "expected": -1.7449999999984534e-12,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 1/false 本地信号",
+      "actual": 1.7500000000000002,
+      "expected": 1.75,
+      "tolerance": 1e-9,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 1/false MCU电压",
+      "actual": 1.7499999999982552,
+      "expected": 1.749999999998255,
+      "tolerance": 1e-7,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 1/false KCL",
+      "actual": 4.1390008541591495e-19,
+      "expected": 0,
+      "tolerance": 1e-8,
+      "passed": true
+    },
+    {
+      "name": "回流诊断 1/false 三电压叠加",
+      "actual": 1.7499999999982552,
+      "expected": 1.7499999999982552,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "步长减半 mosfet/0",
+      "actual": 9.727490478234618,
+      "expected": 9.727490478234618,
+      "tolerance": 0.00001,
+      "passed": true
+    },
+    {
+      "name": "步长减半 mosfet/1",
+      "actual": 0.09237504282625943,
+      "expected": 0.09237504282625943,
+      "tolerance": 0.00001,
+      "passed": true
+    },
+    {
+      "name": "步长减半 flyback/0 峰值",
+      "actual": 36.55019649173273,
+      "expected": 36.54892967534359,
+      "tolerance": 0.02,
+      "passed": true
+    },
+    {
+      "name": "步长减半 flyback/0 10%时间",
+      "actual": 0.00001582938505998799,
+      "expected": 0.000015773004730378157,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "步长减半 flyback/0 峰值",
+      "actual": 36.590116595631734,
+      "expected": 36.590307064859346,
+      "tolerance": 0.02,
+      "passed": true
+    },
+    {
+      "name": "步长减半 flyback/0 10%时间",
+      "actual": 0.00006901827022028789,
+      "expected": 0.00006889490134254065,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "步长减半 flyback/1 峰值",
+      "actual": 12.59018195547605,
+      "expected": 12.590437868124644,
+      "tolerance": 0.02,
+      "passed": true
+    },
+    {
+      "name": "步长减半 flyback/1 10%时间",
+      "actual": 0.0003966151611928066,
+      "expected": 0.00039649256193188885,
+      "tolerance": 0.000002,
+      "passed": true
+    },
+    {
+      "name": "步长减半 pcb/0",
+      "actual": 1.7690476173206915,
+      "expected": 1.7690476173206915,
+      "tolerance": 0.00001,
+      "passed": true
+    },
+    {
+      "name": "步长减半 pcb/1",
+      "actual": 1.7501219482434145,
+      "expected": 1.7501219482434145,
+      "tolerance": 0.00001,
+      "passed": true
+    }
+  ],
+  "at": "2026-10-15T12:13:18.977Z"
+}

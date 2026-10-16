@@ -1,0 +1,133 @@
+{
+  "version": "0.5",
+  "at": "2026-10-15T12:18:31.011Z",
+  "url": "http://127.0.0.1:4173/",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "checks": [
+    {
+      "name": "native added scope configuration survives reopen",
+      "pass": true,
+      "detail": {
+        "scopesBefore": [
+          "<o en=\"2\" sp=\"64\" f=\"x3\" p=\"0\">\n    <p v=\"0\" sc=\"3.3\"/>\n    <p v=\"3\" sc=\"0.001\"/>\n  </o>",
+          "<o en=\"2\" sp=\"64\" f=\"x3\" p=\"1\">\n    <p v=\"0\" sc=\"5\"/>\n    <p v=\"3\" sc=\"0.1\"/>\n  </o>"
+        ],
+        "scopesAfter": [
+          "<o en=\"2\" sp=\"64\" f=\"x3\" p=\"0\">\n    <p v=\"0\" sc=\"3.3\"/>\n    <p v=\"3\" sc=\"0.001\"/>\n  </o>",
+          "<o en=\"2\" sp=\"64\" f=\"x3\" p=\"1\">\n    <p v=\"0\" sc=\"5\"/>\n    <p v=\"3\" sc=\"0.1\"/>\n  </o>"
+        ]
+      }
+    },
+    {
+      "name": "native text import delegates to host and cancel keeps project",
+      "pass": true
+    },
+    {
+      "name": "native save exports project JSON",
+      "pass": true
+    },
+    {
+      "name": "native text export provides design XML",
+      "pass": true
+    },
+    {
+      "name": "native new creates independent blank project",
+      "pass": true
+    },
+    {
+      "name": "course parameter copy R1 = R2",
+      "pass": true,
+      "detail": {
+        "r": "100000",
+        "status": {
+          "running": false,
+          "time": 0,
+          "error": "",
+          "needsReset": false,
+          "message": "已载入设计 · 从显式初始条件开始",
+          "elements": 19,
+          "scopes": 1,
+          "runId": "9c2f1894-adfa-4f15-9b6c-7f7e7e0dff02",
+          "designRevision": 0,
+          "stimulusCount": 0
+        }
+      }
+    },
+    {
+      "name": "sandbox copy and edits preserve course record R1 = R2",
+      "pass": true
+    },
+    {
+      "name": "course parameter copy 电阻 R",
+      "pass": true,
+      "detail": {
+        "r": "22000",
+        "status": {
+          "running": false,
+          "time": 0,
+          "error": "",
+          "needsReset": false,
+          "message": "已载入设计 · 从显式初始条件开始",
+          "elements": 10,
+          "scopes": 1,
+          "runId": "4efe9059-e7de-4d08-a9d0-79876be5a85e",
+          "designRevision": 0,
+          "stimulusCount": 0
+        }
+      }
+    },
+    {
+      "name": "sandbox copy and edits preserve course record 电阻 R",
+      "pass": true
+    },
+    {
+      "name": "course parameter copy 上拉 RP",
+      "pass": true,
+      "detail": {
+        "r": "10000",
+        "status": {
+          "running": false,
+          "time": 0,
+          "error": "",
+          "needsReset": false,
+          "message": "已载入设计 · 从显式初始条件开始",
+          "elements": 19,
+          "scopes": 1,
+          "runId": "35412a20-80a4-4b85-9797-38e0ebb21852",
+          "designRevision": 0,
+          "stimulusCount": 0
+        }
+      }
+    },
+    {
+      "name": "sandbox copy and edits preserve course record 上拉 RP",
+      "pass": true
+    },
+    {
+      "name": "diagnostic mode does not expose normal parameter copy",
+      "pass": true
+    },
+    {
+      "name": "leave and reopen pauses at initial conditions",
+      "pass": true,
+      "detail": {
+        "running": false,
+        "time": 0,
+        "error": "",
+        "needsReset": false,
+        "message": "已载入设计 · 从显式初始条件开始",
+        "elements": 10,
+        "scopes": 1,
+        "runId": "30eba460-3057-4af1-b17c-b2ac0a87d042",
+        "designRevision": 0,
+        "stimulusCount": 0
+      }
+    },
+    {
+      "name": "zero uncaught page errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "pageErrors": []
+}

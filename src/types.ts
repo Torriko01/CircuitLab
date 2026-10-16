@@ -1,0 +1,14 @@
+export const lessonIds = ['divider', 'rc', 'i2c', 'gpio', 'power', 'adc', 'mosfet', 'flyback', 'pcb', 'debounce', 'opamp', 'spi'] as const;
+export type LessonId = typeof lessonIds[number];
+export type Phase = 'intro' | 'predict' | 'explore' | 'diagnose' | 'judge' | 'transfer' | 'review';
+export type Params = { resistance: number; load: number; connected: boolean; capacitance: number; pulse: number; frequency: number; drive: number; probe: number; probeCap: number; sampleTime: number; reference: number; initial: number; gate:number; sourceOffset:number; pathResistance:number; inductance:number; protection:number; layout:number; signalNoise:number; pressTime:number; inputMode:number; hysteresis:number; signalVoltage:number; closedGain:number; outputLimit:number; clockFrequency:number; sampleEdge:number };
+export type Sample = { t: number; nodes: Record<string, number>; currents: Record<string, number> };
+export type RunConfig = { lesson: LessonId; params: Params; diagnostic: boolean; variant: number; halfStep?: boolean };
+export type RunResult = { id: string; config: RunConfig; samples: Sample[]; step: number; duration: number; status: 'complete' | 'paused'; elapsed: number };
+export type MeasurementKind = 'voltage' | 'current' | 'rise' | 'peak' | 'minimum' | 'held' | 'code' | 'decay' | 'edges' | 'aperture' | 'violations';
+export type Evidence = { id: string; runId: string; lesson: LessonId; variant: number; diagnostic: boolean; kind: MeasurementKind; label: string; value: number | null; unit: string; status: string; purpose: string; simTime: number; conditions: string; createdAt: string; parameters?: Params; engineRevision?: string; stepSeconds?: number; lessonVersion?: string };
+export type Progress = { phase: Phase; variant: number; params: Params; prediction: string; confidence: number; hints: number; evidence: Evidence[]; cause: string; explanation: string; remedy: string; evidenceIds: string[]; score: number[] | null; transfer: string[]; transferred: boolean; reflection: string; completed: boolean };
+export type Store = { schemaVersion: 4; lessonVersion: '0.4'; selected: LessonId | null; lessons: Record<LessonId, Progress> };
+export type JSComponent = { getType(): string; getCurrent(): number; getVoltage(n: number): number; getVoltageDiff(): number; getLabelName?(): string };
+export type CircuitAPI = { setSimRunning(run: boolean): void; isRunning(): boolean; getTime(): number; setMaxTimeStep(dt: number): void; getMaxTimeStep(): number; getNodeVoltage(name: string): number; getElements(): JSComponent[]; ontimestep?: () => void; onupdate?: () => void; onanalyze?: () => void };
+export type EngineWindow = Window & { CircuitJS1?: CircuitAPI; oncircuitjsloaded?: (api: CircuitAPI) => void };

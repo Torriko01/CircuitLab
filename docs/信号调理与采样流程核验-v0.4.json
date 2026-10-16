@@ -1,0 +1,50 @@
+{
+  "version": "0.4",
+  "at": "2026-10-15T03:42:15.165Z",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "results": [
+    {
+      "lesson": "debounce",
+      "variant": 0,
+      "insufficientRejected": true,
+      "score": 8,
+      "metrics": "RAW 上升沿\n3 次\n输入中的实际电压变化\nOUT 上升沿\n1 次\n首沿延迟 1.72 ms\nFILTER 峰值\n3.2982 V\n对照上门限与有效按住时间"
+    },
+    {
+      "lesson": "debounce",
+      "variant": 1,
+      "insufficientRejected": true,
+      "score": 8,
+      "metrics": "RAW 上升沿\n3 次\n输入中的实际电压变化\nOUT 上升沿\n1 次\n首沿延迟 1.72 ms\nFILTER 峰值\n3.2982 V\n对照上门限与有效按住时间"
+    },
+    {
+      "lesson": "opamp",
+      "variant": 0,
+      "insufficientRejected": true,
+      "score": 8,
+      "metrics": "放大器输出\n2 V\n相对 GND；检查输出范围\n输入差分 PLUS−FB\n0 V\n饱和后不再直接使用虚短\n负载电流\n0.2 mA\n理想输出驱动；不表示实物带载保证"
+    },
+    {
+      "lesson": "opamp",
+      "variant": 1,
+      "insufficientRejected": true,
+      "score": 8,
+      "metrics": "放大器输出\n2 V\n相对 GND；检查输出范围\n输入差分 PLUS−FB\n0 V\n饱和后不再直接使用虚短\n负载电流\n0.2 mA\n理想输出驱动；不表示实物带载保证"
+    },
+    {
+      "lesson": "spi",
+      "variant": 0,
+      "insufficientRejected": true,
+      "score": 8,
+      "metrics": "DATA 上升时间\n16.95 ns\n实际 30%–70% 交点\n改变至采样最短间隔\n500 ns\n从实际 TX 与 SAMPLE 交点推导\n不保证的采样事件\n0 次\n3 个观察事件；不是协议判定"
+    },
+    {
+      "lesson": "spi",
+      "variant": 1,
+      "insufficientRejected": true,
+      "score": 8,
+      "metrics": "DATA 上升时间\n16.95 ns\n实际 30%–70% 交点\n改变至采样最短间隔\n500 ns\n从实际 TX 与 SAMPLE 交点推导\n不保证的采样事件\n0 次\n3 个观察事件；不是协议判定"
+    }
+  ],
+  "pageErrors": []
+}

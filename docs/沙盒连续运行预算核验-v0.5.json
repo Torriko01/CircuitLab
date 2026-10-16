@@ -1,0 +1,30 @@
+{
+  "version": "0.5",
+  "at": "2026-10-15T12:18:08.065Z",
+  "elapsedMs": 60010,
+  "state": {
+    "running": false,
+    "time": 1.0031299999981043,
+    "error": "",
+    "needsReset": false,
+    "message": "本次运行已满 60 秒 · 已暂停，可继续",
+    "elements": 5,
+    "scopes": 0,
+    "runId": "f83e57a3-920a-486e-ba05-caed194c34dc",
+    "designRevision": 0,
+    "stimulusCount": 0
+  },
+  "resumed": {
+    "running": true,
+    "time": 1.0031299999981043,
+    "error": "",
+    "needsReset": false,
+    "message": "本次运行已满 60 秒 · 已暂停，可继续",
+    "elements": 5,
+    "scopes": 0,
+    "runId": "f83e57a3-920a-486e-ba05-caed194c34dc",
+    "designRevision": 0,
+    "stimulusCount": 0
+  },
+  "passed": true
+}

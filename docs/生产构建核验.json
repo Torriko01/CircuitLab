@@ -1,0 +1,10 @@
+{
+  "production": true,
+  "metrics": "30%–70% 上升时间\n398.23 ns\n超过本模式边沿约束 · 300 ns\n稳定低态电压\n0.069 V\n教学约束 ≤ 0.4 V\n稳定低态电流\n0.6875 mA\n教学能力 ≤ 3 mA",
+  "externalRequests": [],
+  "pageErrors": [],
+  "storageFailureHandled": true,
+  "metadataSaved": true,
+  "playback": true,
+  "desktopOverflow": false
+}

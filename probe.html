@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><title>内核验证</title><link rel="icon" href="data:,"><style>#engine{width:800px;height:420px}iframe{width:100%;height:100%;border:0}</style></head><body><h1>CircuitJS 集成验证</h1><div id="engine"></div><pre id="result">待验证</pre><script type="module">
+import { CircuitAdapter } from '/src/simulation/adapter.ts';
+import { defaultParams } from '/src/simulation/templates.ts';
+import { riseTime, lowState, peak } from '/src/measurement.ts';
+import { verifyEngine } from '/src/simulation/verification.ts';
+import { verifyExtensions } from '/src/simulation/extensionVerification.ts';
+import { verifyStages } from '/src/simulation/stageVerification.ts';
+import { edges,spiTiming } from '/src/signalMeasurement.ts';
+import { verifySignals } from '/src/simulation/signalVerification.ts';
+window.verifySignals=()=>verifySignals(document.querySelector('#engine'),(captures,checks)=>{window.verificationProgress={captures,checks};});
+window.signalReport=()=>{const r=window.lastRun;return r.config.lesson==='debounce'?{raw:edges(r,'RAW').filter(e=>e.rising),out:edges(r,'OUT').filter(e=>e.rising),filterPeak:peak(r,'FILTER')}:r.config.lesson==='spi'?spiTiming(r):{last:r.samples.at(-1)};};
+window.verifyStages=()=>verifyStages(document.querySelector('#engine'),(captures,checks)=>{window.verificationProgress={captures,checks};});
+window.verifyExtensions=()=>verifyExtensions(document.querySelector('#engine'),(captures,checks)=>{window.verificationProgress={captures,checks};});
+window.verifyEngine=()=>verifyEngine(document.querySelector('#engine'));
+window.probeRun=async function(lesson,values={},diagnostic=false,variant=0,halfStep=false){
+  window.adapter?.dispose();
+  window.adapter=new CircuitAdapter(document.querySelector('#engine'));
+  const run=await window.adapter.load({lesson,params:{...defaultParams(lesson),...values},diagnostic,variant,halfStep});
+  await window.adapter.capture(); window.lastRun=run;
+  const output={count:run.samples.length,first:run.samples[0],last:run.samples.at(-1),elapsed:run.elapsed,step:run.step,rise:lesson==='i2c'?riseTime(run):null,low:lesson==='i2c'?lowState(run):null,peak:lesson==='rc'?peak(run,'VC'):null};
+  document.querySelector('#result').textContent=JSON.stringify(output,null,2);return output;
+}
+</script></body></html>

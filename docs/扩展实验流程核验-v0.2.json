@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-14T17:13:04.210Z",
+  "url": "http://127.0.0.1:4174/",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "results": [
+    {
+      "lesson": "gpio",
+      "variant": 0,
+      "insufficientRejected": true,
+      "feedback": "8 / 8 · 已形成有效分析\n判断\n2/2\n测点\n2/2\n解释\n2/2\n行动\n2/2\n\n本题原因：实际为开漏释放，缺少外部上拉。\n\n测量目的与解释已构成一条证据链。\n\n进入迁移检查 →",
+      "metrics": "PIN 对 GND\n3.2999 V\n进入教学高区域\n高侧驱动 HIGH\n0.0033 mA\nVDD → PIN；不是外部上拉电流\n外部上拉 PULL\n0 mA\n对照负载及 LOW 支路"
+    },
+    {
+      "lesson": "gpio",
+      "variant": 1,
+      "insufficientRejected": true,
+      "feedback": "8 / 8 · 已形成有效分析\n判断\n2/2\n测点\n2/2\n解释\n2/2\n行动\n2/2\n\n本题原因：实际为推挽高，但外部负载过重。\n\n测量目的与解释已构成一条证据链。\n\n进入迁移检查 →",
+      "metrics": "PIN 对 GND\n3.2999 V\n进入教学高区域\n高侧驱动 HIGH\n0.0033 mA\nVDD → PIN；不是外部上拉电流\n外部上拉 PULL\n0 mA\n对照负载及 LOW 支路"
+    },
+    {
+      "lesson": "power",
+      "variant": 0,
+      "insufficientRejected": true,
+      "feedback": "8 / 8 · 已形成有效分析\n判断\n2/2\n测点\n2/2\n解释\n2/2\n行动\n2/2\n\n本题原因：供电路径电阻偏大。\n\n测量目的与解释已构成一条证据链。\n\n进入迁移检查 →",
+      "metrics": "芯片端最低值\n3.1577 V\n发生于 150.20 µs\n低于教学线 3.15 V\n0 µs\n累计时间；不等于真实 BOR 判定\n捕获结束 VMCU\n3.3 V\n短脉冲已恢复时不能代替最低值"
+    },
+    {
+      "lesson": "power",
+      "variant": 1,
+      "insufficientRejected": true,
+      "feedback": "8 / 8 · 已形成有效分析\n判断\n2/2\n测点\n2/2\n解释\n2/2\n行动\n2/2\n\n本题原因：局部电容比标称小，负载边沿跌落更快。\n\n测量目的与解释已构成一条证据链。\n\n进入迁移检查 →",
+      "metrics": "芯片端最低值\n3.1577 V\n发生于 150.20 µs\n低于教学线 3.15 V\n0 µs\n累计时间；不等于真实 BOR 判定\n捕获结束 VMCU\n3.3 V\n短脉冲已恢复时不能代替最低值"
+    },
+    {
+      "lesson": "adc",
+      "variant": 0,
+      "insufficientRejected": true,
+      "feedback": "8 / 8 · 已形成有效分析\n判断\n2/2\n测点\n2/2\n解释\n2/2\n行动\n2/2\n\n本题原因：源阻抗偏高，采样窗口内未充分建立。\n\n测量目的与解释已构成一条证据链。\n\n进入迁移检查 →",
+      "metrics": "采样结束 HOLD\n1.0803 V\n实际取样 1.008 µs\n理想 12 位数字码\n1,340 code\nfloor(4096×VHOLD/VREF)，限幅\n软件按 3.3 V 换算\n1.0796 V\n用于展示参考假设导致的偏差"
+    },
+    {
+      "lesson": "adc",
+      "variant": 1,
+      "insufficientRejected": true,
+      "feedback": "8 / 8 · 已形成有效分析\n判断\n2/2\n测点\n2/2\n解释\n2/2\n行动\n2/2\n\n本题原因：实际参考为 3.6 V，软件却按 3.3 V 换算。\n\n测量目的与解释已构成一条证据链。\n\n进入迁移检查 →",
+      "metrics": "采样结束 HOLD\n1.0803 V\n实际取样 1.008 µs\n理想 12 位数字码\n1,340 code\nfloor(4096×VHOLD/VREF)，限幅\n软件按 3.3 V 换算\n1.0796 V\n用于展示参考假设导致的偏差"
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "createdAt": "2026-10-14T17:23:20.490489+00:00",
+  "archive": "电路直觉实验室-MVP-0.2.zip",
+  "bytes": 4663076,
+  "sha256": "e161c9b8b777a5e5efbcb2d046a562e37fc33957e02f5a5f059b359630d5fdca",
+  "files": 911,
+  "crcPassed": true,
+  "engineRevision": "8ee04b18a6c9241675f1c4f766617806c2fe148d",
+  "verification": {
+    "extensionCaptures": 345,
+    "extensionChecks": 1189,
+    "extensionPassed": 1189,
+    "regressionCaptures": 67,
+    "regressionChecks": 102,
+    "regressionPassed": 102,
+    "unitTests": 18
+  },
+  "sourceHashes": {
+    "src/App.tsx": "455ffc4d8afb81419bc8149c925b2cd10a3c823dd610a1fcd8d9fc72c837010e",
+    "src/Chart.tsx": "e791243401c913b83bc194c111877e9516d4857a587e32cc1081141ca9b95675",
+    "src/content.ts": "85221ded157fb998077cd293dd9b211f8fb68287cd6956e5c71dffc0c42e5bc0",
+    "src/engineering.ts": "2ae66c43d5ee55a0c75f8ac5dae5a48735bf40002ceacfdd402606348737a673",
+    "src/extensionContent.ts": "c3b0d93fe1207498dd7e8644e8bcac5971cc14711ddc4c70aaf8aac3f4d8f96e",
+    "src/lessonConfig.ts": "75f4ac7a2a85f17c52144418cd106f1f4964151b8135352f32f835d4ae018c11",
+    "src/main.tsx": "1411490ded30f203ea8d24183d9adf5c734984f1d6df8934f7fde5c56745eab5",
+    "src/measurement.ts": "43d78fe952d178bfad3cc58a6e33ca82dbeab0ed971c6f3ff187a66b85851879",
+    "src/simulation/adapter.ts": "799f908e5bac1217d7b85adf82edba088a896de20f3683800ce2760459aaed85",
+    "src/simulation/extensionVerification.ts": "402763a61996fe20a8ae3b74c977cd492d8434e6f7760083dde51a721a92d973",
+    "src/simulation/templates.ts": "cf4effbc2f89685fdcf2f47b01277bba5a37ee69a078f1d67ee1de4911ed749d",
+    "src/simulation/verification.ts": "1bd71d77eda3d4aff01363edcebdebe4d77515f79a09e3c73e9ca8ddf9b42d61",
+    "src/store.ts": "45f27eff2f214842d8aa2eb5b66f98a125935e1ce6106d3426344df78a175a5d",
+    "src/types.ts": "d5ced337cf1e97e82abce479a6f573afbb7d60e767cc123ae1336ebf06ea0e89"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "at": "2026-10-14T17:13:56.135Z",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15",
+  "checks": 9,
+  "passed": 9,
+  "rows": [
+    {
+      "lesson": "gpio",
+      "variant": -1,
+      "actual": 3.2999175019799543,
+      "expected": 3.3,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "lesson": "gpio",
+      "variant": 0,
+      "actual": 0.000006599980200059399,
+      "expected": 0,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "lesson": "gpio",
+      "variant": 1,
+      "actual": 3.2999175019799543,
+      "expected": 3.3,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "lesson": "power",
+      "variant": -1,
+      "actual": 3.1465116279069956,
+      "expected": 3.1465116279069765,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "lesson": "power",
+      "variant": 0,
+      "actual": 2.653048581112782,
+      "expected": 2.6529411764705877,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "lesson": "power",
+      "variant": 1,
+      "actual": 3.146511627907037,
+      "expected": 3.1465116279069765,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "lesson": "adc",
+      "variant": -1,
+      "actual": 1.6418457855884558,
+      "expected": 1.6418283165476293,
+      "tolerance": 0.004,
+      "passed": true
+    },
+    {
+      "lesson": "adc",
+      "variant": 0,
+      "actual": 1.5145598104207174,
+      "expected": 1.514221067156187,
+      "tolerance": 0.004,
+      "passed": true
+    },
+    {
+      "lesson": "adc",
+      "variant": 1,
+      "actual": 1.649999983278034,
+      "expected": 1.649999999970649,
+      "tolerance": 0.004,
+      "passed": true
+    }
+  ]
+}

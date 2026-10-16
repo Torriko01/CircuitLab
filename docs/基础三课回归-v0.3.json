@@ -1,0 +1,621 @@
+{
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "captures": 67,
+  "checks": 102,
+  "passed": 102,
+  "rows": [
+    {
+      "name": "分压空载 VOUT",
+      "actual": 1.64999999175,
+      "expected": 1.65,
+      "passed": true
+    },
+    {
+      "name": "分压带载 VOUT",
+      "actual": 1.0999999963333333,
+      "expected": 1.1,
+      "passed": true
+    },
+    {
+      "name": "分压支路收支",
+      "actual": 1.0999999739205735e-12,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "分压诊断 0/false",
+      "actual": 1.0999999926666666,
+      "expected": 1.1,
+      "passed": true
+    },
+    {
+      "name": "分压诊断 0/true",
+      "actual": 1.0999999853333335,
+      "expected": 1.1,
+      "passed": true
+    },
+    {
+      "name": "分压诊断 1/false",
+      "actual": 1.64999999175,
+      "expected": 1.65,
+      "passed": true
+    },
+    {
+      "name": "分压诊断 1/true",
+      "actual": 1.0999999963333333,
+      "expected": 1.1,
+      "passed": true
+    },
+    {
+      "name": "RC 在 τ 处",
+      "actual": 2.083972255303778,
+      "expected": 2.08599784413424,
+      "passed": true
+    },
+    {
+      "name": "RC 在 5τ 处",
+      "actual": 3.277727757439355,
+      "expected": 3.2777647749030177,
+      "passed": true
+    },
+    {
+      "name": "RC 高门限时间",
+      "actual": 0.01205640929092062,
+      "expected": 0.012039728043259361,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 4700/4.7e-7/0.002",
+      "actual": 1.9650110436794743,
+      "expected": 1.9655283903249534,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 4700/4.7e-7/0.01",
+      "actual": 3.264364525725035,
+      "expected": 3.264314569985814,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 4700/4.7e-7/0.03",
+      "actual": 3.299995830670477,
+      "expected": 3.299995827033257,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 4700/0.000001/0.002",
+      "actual": 1.148187436328484,
+      "expected": 1.143706978542429,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 4700/0.000001/0.01",
+      "actual": 2.90718300873469,
+      "expected": 2.90691802693303,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 4700/0.000001/0.03",
+      "actual": 3.294415434896824,
+      "expected": 3.2944227321489805,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 4700/0.0000022/0.002",
+      "actual": 0.583490320411763,
+      "expected": 0.5803617618197204,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 4700/0.0000022/0.01",
+      "actual": 2.0469386622571584,
+      "expected": 2.0454154523145314,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 4700/0.0000022/0.03",
+      "actual": 3.1187259847392657,
+      "expected": 3.118669055883878,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 10000/4.7e-7/0.002",
+      "actual": 1.148187436328476,
+      "expected": 1.143706978542429,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 10000/4.7e-7/0.01",
+      "actual": 2.9071830087347257,
+      "expected": 2.90691802693303,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 10000/4.7e-7/0.03",
+      "actual": 3.294415434896904,
+      "expected": 3.2944227321489805,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 10000/0.000001/0.002",
+      "actual": 0.6013876849697172,
+      "expected": 0.59818851484266,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 10000/0.000001/0.01",
+      "actual": 2.088018936650521,
+      "expected": 2.08599784413424,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 10000/0.000001/0.03",
+      "actual": 3.135976503262046,
+      "expected": 3.135702674386049,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 10000/0.0000022/0.002",
+      "actual": 0.288505866833799,
+      "expected": 0.2867676362685344,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 10000/0.0000022/0.01",
+      "actual": 1.209875161207386,
+      "expected": 1.2053698174970697,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 10000/0.0000022/0.03",
+      "actual": 2.4572436638948774,
+      "expected": 2.456093772286768,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 22000/4.7e-7/0.002",
+      "actual": 0.5834903204117594,
+      "expected": 0.5803617618197204,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 22000/4.7e-7/0.01",
+      "actual": 2.046938662257205,
+      "expected": 2.0454154523145314,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 22000/4.7e-7/0.03",
+      "actual": 3.1187259847395152,
+      "expected": 3.118669055883878,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 22000/0.000001/0.002",
+      "actual": 0.2885058668338001,
+      "expected": 0.2867676362685344,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 22000/0.000001/0.01",
+      "actual": 1.2098751612074057,
+      "expected": 1.2053698174970697,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 22000/0.000001/0.03",
+      "actual": 2.457243663894881,
+      "expected": 2.456093772286768,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 22000/0.0000022/0.002",
+      "actual": 0.13443826959375604,
+      "expected": 0.13358461582874478,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 22000/0.0000022/0.01",
+      "actual": 0.6192608438417407,
+      "expected": 0.6159928092455322,
+      "passed": true
+    },
+    {
+      "name": "RC 脉冲 22000/0.0000022/0.03",
+      "actual": 1.5222472962177833,
+      "expected": 1.5244899074476126,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 470/5e-11/100000",
+      "actual": 1.99111666619974e-8,
+      "expected": 1.9911499719400003e-8,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 470/5e-11/100000",
+      "actual": 0.5789473684210481,
+      "expected": 0.5789473684210527,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 470/5e-11/400000",
+      "actual": 1.9911166661996977e-8,
+      "expected": 1.9911499719400003e-8,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 470/5e-11/400000",
+      "actual": 0.5789473684210481,
+      "expected": 0.5789473684210527,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 470/1e-10/100000",
+      "actual": 3.982233332399311e-8,
+      "expected": 3.982299943880001e-8,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 470/1e-10/100000",
+      "actual": 0.5789473684210481,
+      "expected": 0.5789473684210527,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 470/1e-10/400000",
+      "actual": 3.9822333323980826e-8,
+      "expected": 3.982299943880001e-8,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 470/1e-10/400000",
+      "actual": 0.5789473684210481,
+      "expected": 0.5789473684210527,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 470/2e-10/100000",
+      "actual": 7.964466664798791e-8,
+      "expected": 7.964599887760001e-8,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 470/2e-10/100000",
+      "actual": 0.5789473684210481,
+      "expected": 0.5789473684210527,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 470/2e-10/400000",
+      "actual": 7.964466664797436e-8,
+      "expected": 7.964599887760001e-8,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 470/2e-10/400000",
+      "actual": 0.5789473684210481,
+      "expected": 0.5789473684210527,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 1000/5e-11/100000",
+      "actual": 4.236418338728379e-8,
+      "expected": 4.236489302e-8,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 1000/5e-11/100000",
+      "actual": 0.2999999999999991,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 1000/5e-11/400000",
+      "actual": 4.236418338725838e-8,
+      "expected": 4.236489302e-8,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 1000/5e-11/400000",
+      "actual": 0.2999999999999991,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 1000/1e-10/100000",
+      "actual": 8.472836677451676e-8,
+      "expected": 8.472978604e-8,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 1000/1e-10/100000",
+      "actual": 0.2999999999999991,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 1000/1e-10/400000",
+      "actual": 8.472836677451676e-8,
+      "expected": 8.472978604e-8,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 1000/1e-10/400000",
+      "actual": 0.2999999999999991,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 1000/2e-10/100000",
+      "actual": 1.694567335490335e-7,
+      "expected": 1.6945957208e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 1000/2e-10/100000",
+      "actual": 0.2999999999999991,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 1000/2e-10/400000",
+      "actual": 1.69456733549046e-7,
+      "expected": 1.6945957208e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 1000/2e-10/400000",
+      "actual": 0.2999999999999991,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 2200/5e-11/100000",
+      "actual": 9.320121878427732e-8,
+      "expected": 9.3202764644e-8,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 2200/5e-11/100000",
+      "actual": 0.14347826086956508,
+      "expected": 0.14347826086956522,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 2200/5e-11/400000",
+      "actual": 9.320121878430294e-8,
+      "expected": 9.3202764644e-8,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 2200/5e-11/400000",
+      "actual": 0.14347826086956508,
+      "expected": 0.14347826086956522,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 2200/1e-10/100000",
+      "actual": 1.8640243756860546e-7,
+      "expected": 1.86405529288e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 2200/1e-10/100000",
+      "actual": 0.14347826086956508,
+      "expected": 0.14347826086956522,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 2200/1e-10/400000",
+      "actual": 1.8640243756859297e-7,
+      "expected": 1.86405529288e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 2200/1e-10/400000",
+      "actual": 0.14347826086956508,
+      "expected": 0.14347826086956522,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 2200/2e-10/100000",
+      "actual": 3.728134640445012e-7,
+      "expected": 3.72811058576e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 2200/2e-10/100000",
+      "actual": 0.14347826086956503,
+      "expected": 0.14347826086956522,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 2200/2e-10/400000",
+      "actual": 3.7281346404450034e-7,
+      "expected": 3.72811058576e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 2200/2e-10/400000",
+      "actual": 0.14347826086956503,
+      "expected": 0.14347826086956522,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 4700/5e-11/100000",
+      "actual": 1.9911167681556052e-7,
+      "expected": 1.99114997194e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 4700/5e-11/100000",
+      "actual": 0.06874999999999994,
+      "expected": 0.06875,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 4700/5e-11/400000",
+      "actual": 1.991116768155728e-7,
+      "expected": 1.99114997194e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 4700/5e-11/400000",
+      "actual": 0.06874999999999994,
+      "expected": 0.06875,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 4700/1e-10/100000",
+      "actual": 3.9823062548634713e-7,
+      "expected": 3.98229994388e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 4700/1e-10/100000",
+      "actual": 0.06874999999999998,
+      "expected": 0.06875,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 4700/1e-10/400000",
+      "actual": 3.982306254863467e-7,
+      "expected": 3.98229994388e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 4700/1e-10/400000",
+      "actual": 0.06874999999999998,
+      "expected": 0.06875,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 4700/2e-10/100000",
+      "actual": 7.964562291408017e-7,
+      "expected": 7.96459988776e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 4700/2e-10/100000",
+      "actual": 0.06875000000000003,
+      "expected": 0.06875,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 4700/2e-10/400000",
+      "actual": 7.964562291408013e-7,
+      "expected": 7.96459988776e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 4700/2e-10/400000",
+      "actual": 0.06875000000000003,
+      "expected": 0.06875,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 10000/5e-11/100000",
+      "actual": 4.236440142846372e-7,
+      "expected": 4.236489302e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 10000/5e-11/100000",
+      "actual": 0.032673267326732675,
+      "expected": 0.032673267326732675,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 10000/5e-11/400000",
+      "actual": 4.236440142846372e-7,
+      "expected": 4.236489302e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 10000/5e-11/400000",
+      "actual": 0.032673267326732675,
+      "expected": 0.032673267326732675,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 10000/1e-10/100000",
+      "actual": 8.472971217069341e-7,
+      "expected": 8.472978604e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 10000/1e-10/100000",
+      "actual": 0.03267326732673264,
+      "expected": 0.032673267326732675,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 10000/1e-10/400000",
+      "actual": 8.472971217069339e-7,
+      "expected": 8.472978604e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 10000/1e-10/400000",
+      "actual": 0.03267326732673264,
+      "expected": 0.032673267326732675,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 10000/2e-10/100000",
+      "actual": 0.0000016945945043389125,
+      "expected": 0.0000016945957208,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 10000/2e-10/100000",
+      "actual": 0.032673267326732654,
+      "expected": 0.032673267326732675,
+      "passed": true
+    },
+    {
+      "name": "I²C tr 10000/2e-10/400000",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "name": "I²C 低态 10000/2e-10/400000",
+      "actual": 0.032673267326732654,
+      "expected": 0.032673267326732675,
+      "passed": true
+    },
+    {
+      "name": "I²C 步长减半收敛",
+      "actual": 3.9822811457040064e-7,
+      "expected": 3.982306254863467e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 诊断 0 tr",
+      "actual": 7.964564770474297e-7,
+      "expected": 7.96459988776e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 诊断 0 电流",
+      "actual": 0.0003473684210526316,
+      "expected": 0.00034736842105263153,
+      "passed": true
+    },
+    {
+      "name": "I²C 诊断 1 tr",
+      "actual": 7.964562291408013e-7,
+      "expected": 7.96459988776e-7,
+      "passed": true
+    },
+    {
+      "name": "I²C 诊断 1 电流",
+      "actual": 0.0006875,
+      "expected": 0.0006875,
+      "passed": true
+    }
+  ],
+  "at": "2026-10-15T02:12:07.717Z"
+}

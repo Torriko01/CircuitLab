@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-15",
+  "purpose": "Free circuit sandbox feasibility probe, not feature acceptance",
+  "applicationVersion": "0.4.0",
+  "engineRevision": "8ee04b18a6c9241675f1c4f766617806c2fe148d",
+  "context": {
+    "browser": "isolated Chromium session sandboxcheck",
+    "page": "http://127.0.0.1:4173/vendor/circuitjs/circuitjs.html?editable=true&running=false&hideMenu=false&hideSidebar=false&lang=zh",
+    "applicationSourceChanged": false,
+    "userCourseStorageUsed": false
+  },
+  "checks": [
+    {
+      "id": "native-edit-ui",
+      "status": "observed",
+      "details": "Chinese drawing toolbar, file/edit/scope menus, run and reset controls are present; translation is incomplete."
+    },
+    {
+      "id": "mouse-draw-undo-redo",
+      "status": "passed-for-this-operation",
+      "beforeDrawingElementCount": 7,
+      "afterDrawingElementCount": 8,
+      "parameterDialogConfirmed": true,
+      "afterUndoElementCount": 7,
+      "afterRedoElementCount": 8,
+      "details": "An additional unconnected resistor was drawn in empty canvas space. This does not verify manual wiring of a full circuit."
+    },
+    {
+      "id": "divider-api-import-run-export-import",
+      "status": "passed-for-this-circuit",
+      "input": {
+        "supplyVolts": 3.3,
+        "topResistanceOhms": 10000,
+        "bottomResistanceOhms": 10000,
+        "timeStepSeconds": 0.00001,
+        "circuit": "$ 1 0.00001 10 50 3.3 50 0.000000625\nv 128 288 128 128 0 0 40 3.3 0 0 0.5\nr 128 128 320 128 0 10000\nr 320 128 320 288 0 10000\nw 128 288 320 288 0\ng 128 288 128 320 0\n207 128 128 80 128 4 VIN\n207 320 128 320 80 4 VOUT"
+      },
+      "independentExpected": {
+        "outputVolts": 1.65,
+        "resistorCurrentAmps": 0.000165
+      },
+      "observedBeforeExport": {
+        "timeSeconds": 0.001000000000000002,
+        "inputVolts": 3.3,
+        "outputVolts": 1.65,
+        "topResistorCurrentAmps": 0.000165,
+        "bottomResistorCurrentAmps": 0.000165,
+        "elementCount": 7
+      },
+      "observedAfterReimportAndRun": {
+        "timeSeconds": 0.001000000000000002,
+        "inputVolts": 3.3,
+        "outputVolts": 1.65,
+        "elementCount": 7
+      },
+      "exportFormatObserved": "XML with cir root"
+    }
+  ],
+  "integrationIssuesObserved": [
+    "404 /vendor/circuitjs/iframe.html, visible Not found in native sidebar",
+    "404 /favicon.ico",
+    "Incomplete Chinese translation and ignored locale entries",
+    "A startup log reported failed to create VCCSElm in CompositeElm; it did not prevent the tested divider from running. Broader component coverage remains unverified."
+  ],
+  "limitations": [
+    "No complete manually wired circuit was tested.",
+    "No integrated sandbox project store or editing lifecycle exists yet.",
+    "No RC state restoration, inductive state restoration, waveform history, complex model, stress, or WebKit acceptance was performed in this probe.",
+    "Existing fixed-course numerical checks do not validate arbitrary user circuits."
+  ],
+  "screenshot": "../output/playwright/sandbox-capability-divider.png"
+}

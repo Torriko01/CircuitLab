@@ -1,0 +1,114 @@
+{
+  "version": "0.4",
+  "at": "2026-10-15T03:51:36.092Z",
+  "url": "http://127.0.0.1:4174/",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "checks": [
+    {
+      "name": "schema-3 backup and migration",
+      "passed": true
+    },
+    {
+      "name": "original evidence meaning and linkage survive",
+      "passed": true
+    },
+    {
+      "name": "invalid import leaves record intact",
+      "passed": true
+    },
+    {
+      "name": "schema-4 export/import roundtrip",
+      "passed": true
+    },
+    {
+      "name": "default debounce output once",
+      "passed": true
+    },
+    {
+      "name": "fast filter passes multiple bounce edges",
+      "passed": true
+    },
+    {
+      "name": "slow filter misses short press",
+      "passed": true
+    },
+    {
+      "name": "longer press crosses threshold",
+      "passed": true
+    },
+    {
+      "name": "linear gain gives about two volts",
+      "passed": true
+    },
+    {
+      "name": "output clips near model upper limit",
+      "passed": true
+    },
+    {
+      "name": "saturation breaks near-zero differential",
+      "passed": true
+    },
+    {
+      "name": "follower returns to linear range",
+      "passed": true
+    },
+    {
+      "name": "healthy SPI windows",
+      "passed": true
+    },
+    {
+      "name": "slow path loses window at one megahertz",
+      "passed": true
+    },
+    {
+      "name": "slowing clock restores this RC window",
+      "passed": true
+    },
+    {
+      "name": "wrong edge still violates windows at lower clock",
+      "passed": true
+    },
+    {
+      "name": "sampling panel has three actual events",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 1280",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow 1440",
+      "passed": true
+    },
+    {
+      "name": "waveform playback runs",
+      "passed": true
+    },
+    {
+      "name": "quota failure remains usable",
+      "passed": true
+    },
+    {
+      "name": "memory record export works",
+      "passed": true
+    },
+    {
+      "name": "persistent storage recovers",
+      "passed": true
+    },
+    {
+      "name": "twelve course cards",
+      "passed": true
+    },
+    {
+      "name": "zero external runtime requests",
+      "passed": true
+    },
+    {
+      "name": "zero page errors",
+      "passed": true
+    }
+  ],
+  "outside": [],
+  "pageErrors": []
+}

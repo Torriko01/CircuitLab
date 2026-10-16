@@ -1,0 +1,493 @@
+{
+  "version": "0.5",
+  "at": "2026-10-15T15:11:08.514Z",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15",
+  "checks": [
+    {
+      "name": "divider voltage",
+      "pass": true,
+      "detail": 1.65
+    },
+    {
+      "name": "divider currents",
+      "pass": true,
+      "detail": [
+        0.000165,
+        0.000165,
+        0.000165
+      ]
+    },
+    {
+      "name": "reopen paused at time zero",
+      "pass": true,
+      "detail": {
+        "running": false,
+        "time": 0,
+        "error": "",
+        "needsReset": false,
+        "message": "已载入设计 · 从显式初始条件开始",
+        "elements": 7,
+        "scopes": 0,
+        "runId": "3c2e9839-08e7-4604-b69d-81f95a34b98c",
+        "designRevision": 0,
+        "stimulusCount": 0
+      }
+    },
+    {
+      "name": "XML divider roundtrip",
+      "pass": true,
+      "detail": 1.65
+    },
+    {
+      "name": "loaded divider",
+      "pass": true,
+      "detail": 1.0999999999999999
+    },
+    {
+      "name": "RC at tau",
+      "pass": true,
+      "detail": {
+        "actual": 2.0866046429797653,
+        "expected": 2.087211239491282,
+        "t": 0.01000999999999976
+      }
+    },
+    {
+      "name": "save excludes capacitor running voltage",
+      "pass": true,
+      "detail": "<cir f=\"1\" ts=\"0.00001\" ic=\"10.20027730826997\" cb=\"50\" pb=\"50\" vr=\"3.3\" mts=\"6.25e-7\">\n  <v x=\"128 288 128 128\" f=\"0\" wf=\"0\" maxv=\"3.3\"/>\n  <r x=\"128 128 320 128\" f=\"0\" r=\"10000\"/>\n  <c x=\"320 128 320 288\" f=\"0\" c=\"0.000001\" iv=\"0\" sr=\"0\"/>\n  <w x=\"128 288 320 288\" f=\"0\"/>\n  <g x=\"128 288 128 320\" f=\"0\"/>\n  <ln x=\"128 128 80 128\" f=\"4\" te=\"VIN\"/>\n  <ln x=\"320 128 320 80\" f=\"4\" te=\"VOUT\"/>\n  <o en=\"2\" sp=\"64\" f=\"x3\" p=\"0\">\n    <p v=\"0\" sc=\"3.3\"/>\n    <p v=\"3\" sc=\"0.001\"/>\n  </o>\n</cir>\n"
+    },
+    {
+      "name": "scope settings retained",
+      "pass": true,
+      "detail": "<cir f=\"1\" ts=\"0.00001\" ic=\"10.20027730826997\" cb=\"50\" pb=\"50\" vr=\"3.3\" mts=\"6.25e-7\">\n  <v x=\"128 288 128 128\" f=\"0\" wf=\"0\" maxv=\"3.3\"/>\n  <r x=\"128 128 320 128\" f=\"0\" r=\"10000\"/>\n  <c x=\"320 128 320 288\" f=\"0\" c=\"0.000001\" iv=\"0\" sr=\"0\"/>\n  <w x=\"128 288 320 288\" f=\"0\"/>\n  <g x=\"128 288 128 320\" f=\"0\"/>\n  <ln x=\"128 128 80 128\" f=\"4\" te=\"VIN\"/>\n  <ln x=\"320 128 320 80\" f=\"4\" te=\"VOUT\"/>\n  <o en=\"2\" sp=\"64\" f=\"x3\" p=\"0\">\n    <p v=\"0\" sc=\"3.3\"/>\n    <p v=\"3\" sc=\"0.001\"/>\n  </o>\n</cir>\n"
+    },
+    {
+      "name": "RC reopen clears time and preserves scope",
+      "pass": true,
+      "detail": {
+        "circuit": "<cir f=\"1\" ts=\"0.00001\" ic=\"10.20027730826997\" cb=\"50\" pb=\"50\" vr=\"3.3\" mts=\"6.25e-7\">\n  <v x=\"128 288 128 128\" f=\"0\" wf=\"0\" maxv=\"3.3\"/>\n  <r x=\"128 128 320 128\" f=\"0\" r=\"10000\"/>\n  <c x=\"320 128 320 288\" f=\"0\" c=\"0.000001\" iv=\"0\" sr=\"0\"/>\n  <w x=\"128 288 320 288\" f=\"0\"/>\n  <g x=\"128 288 128 320\" f=\"0\"/>\n  <ln x=\"128 128 80 128\" f=\"4\" te=\"VIN\"/>\n  <ln x=\"320 128 320 80\" f=\"4\" te=\"VOUT\"/>\n  <o en=\"2\" sp=\"64\" f=\"x3\" p=\"0\">\n    <p v=\"0\" sc=\"3.3\"/>\n    <p v=\"3\" sc=\"0.001\"/>\n  </o>\n</cir>\n",
+        "running": false,
+        "time": 0,
+        "error": "",
+        "needsReset": false,
+        "message": "已载入设计 · 从显式初始条件开始",
+        "elements": 7,
+        "scopes": 1,
+        "runId": "2e5d499e-e9d2-472d-802d-81407c899522",
+        "designRevision": 0,
+        "stimulusCount": 0
+      }
+    },
+    {
+      "name": "RC rerun reproducible",
+      "pass": true,
+      "detail": {
+        "a": 2.0866046429797653,
+        "b": 2.0866046429797653
+      }
+    },
+    {
+      "name": "RC half-step stability",
+      "pass": true,
+      "detail": {
+        "full": 2.0866046429797653,
+        "half": 2.086301294102882
+      }
+    },
+    {
+      "name": "explicit nonzero capacitor initial condition",
+      "pass": true,
+      "detail": 2.52783931826
+    },
+    {
+      "name": "RL explicit initial current",
+      "pass": true,
+      "detail": {
+        "actual": 0.021590033290685984,
+        "expected": 0.02159573732368546
+      }
+    },
+    {
+      "name": "save excludes inductor runtime state",
+      "pass": true,
+      "detail": "<cir f=\"1\" ts=\"0.000001\" ic=\"10.20027730826997\" cb=\"50\" pb=\"50\" vr=\"3.3\" mts=\"6.25e-8\">\n  <v x=\"128 288 128 128\" f=\"0\" wf=\"0\" maxv=\"3.3\"/>\n  <r x=\"128 128 320 128\" f=\"0\" r=\"100\"/>\n  <l x=\"320 128 320 288\" f=\"0\" l=\"0.1\" ic=\"0.002\"/>\n  <w x=\"128 288 320 288\" f=\"0\"/>\n  <g x=\"128 288 128 320\" f=\"0\"/>\n  <ln x=\"320 128 320 80\" f=\"4\" te=\"VOUT\"/>\n  <ln x=\"128 128 80 128\" f=\"4\" te=\"VIN\"/>\n</cir>\n"
+    },
+    {
+      "name": "diode forward model and KCL",
+      "pass": true,
+      "detail": {
+        "voltage": 0.3848316326987783,
+        "expected": 0.3848316326987783,
+        "current": 0.0002915168367301222
+      }
+    },
+    {
+      "name": "custom diode model numerical reference",
+      "pass": true,
+      "detail": {
+        "actual": 0.5825501897392273,
+        "expected": 0.5825501897392273
+      }
+    },
+    {
+      "name": "custom model definition and reference saved",
+      "pass": true
+    },
+    {
+      "name": "custom model roundtrip keeps working point",
+      "pass": true,
+      "detail": {
+        "before": 0.5825501897392273,
+        "after": 0.5825501897392273
+      }
+    },
+    {
+      "name": "diode reverse qualitative behavior",
+      "pass": true,
+      "detail": {
+        "voltage": -3.298285647180719,
+        "current": -1.7143528192808883e-7
+      }
+    },
+    {
+      "name": "open drain low level and sink current",
+      "pass": true,
+      "detail": {
+        "voltage": 0.06874999999999998,
+        "current": 0.0006875
+      }
+    },
+    {
+      "name": "open drain release",
+      "pass": true,
+      "detail": {
+        "voltage": 3.0157754673782113,
+        "expected": 3.0232325757814484,
+        "time": 0.000002404999999999982
+      }
+    },
+    {
+      "name": "invalid document rejected <cir><r x=\"0 0 64 0\" r=\"bad\"/></cir>",
+      "pass": true
+    },
+    {
+      "name": "invalid document rejected <cir><unknown x=\"0 0 64 0\"/></cir>",
+      "pass": true
+    },
+    {
+      "name": "invalid document rejected <cir><d x=\"0 0 64 0\" mo=\"missing-model\"/></ci",
+      "pass": true
+    },
+    {
+      "name": "invalid document rejected <cir sublib=\"1\"/>",
+      "pass": true
+    },
+    {
+      "name": "invalid document rejected <cir><r",
+      "pass": true
+    },
+    {
+      "name": "invalid document rejected garbage",
+      "pass": true
+    },
+    {
+      "name": "invalid document rejected $ 1 0 10 50 3.3 50 0\nr 0 0 64 0 0 10",
+      "pass": true
+    },
+    {
+      "name": "bounded graph 50",
+      "pass": true,
+      "detail": {
+        "size": 50,
+        "elapsedMs": 104
+      }
+    },
+    {
+      "name": "bounded graph 200",
+      "pass": true,
+      "detail": {
+        "size": 200,
+        "elapsedMs": 108
+      }
+    },
+    {
+      "name": "over-budget run refused",
+      "pass": true,
+      "detail": {
+        "running": false,
+        "time": 0,
+        "error": "",
+        "needsReset": false,
+        "message": "运行范围为 1–200 个图元，请调整电路",
+        "elements": 201,
+        "scopes": 0,
+        "runId": "c8eb066a-da94-4911-b678-b51602b5db6f",
+        "designRevision": 0,
+        "stimulusCount": 0
+      }
+    },
+    {
+      "name": "ideal source preflight prevents hidden resistance",
+      "pass": true,
+      "detail": {
+        "running": false,
+        "time": 0,
+        "error": "理想电压源形成闭环或被导线短接。请检查连接，并在需要时显式加入真实内阻。",
+        "needsReset": false,
+        "message": "已载入设计 · 从显式初始条件开始",
+        "elements": 3,
+        "scopes": 0,
+        "runId": "a177e4d9-ccc2-4500-b7f9-85bc88924f31",
+        "designRevision": 0,
+        "stimulusCount": 0
+      }
+    },
+    {
+      "name": "native wire loop error is exposed",
+      "pass": true,
+      "detail": {
+        "running": false,
+        "time": 0,
+        "error": "导线形成闭环，请检查连接",
+        "needsReset": false,
+        "message": "已载入设计 · 从显式初始条件开始",
+        "elements": 4,
+        "scopes": 0,
+        "runId": "61e68e4a-4ac7-476b-9ddc-7673ad23b658",
+        "designRevision": 0,
+        "stimulusCount": 0
+      }
+    }
+  ],
+  "runs": [
+    {
+      "t": 0.001000000000000002,
+      "vin": 3.3,
+      "vout": 1.65,
+      "currents": [
+        0.000165,
+        0.000165,
+        0.000165,
+        -0.000165,
+        0,
+        0,
+        0
+      ],
+      "elapsedMs": 71
+    },
+    {
+      "t": 0.001000000000000002,
+      "vin": 3.3,
+      "vout": 1.65,
+      "currents": [
+        0.000165,
+        0.000165,
+        0.000165,
+        -0.000165,
+        0,
+        0,
+        0
+      ],
+      "elapsedMs": 94
+    },
+    {
+      "t": 0.001000000000000002,
+      "vin": 3.3,
+      "vout": 1.0999999999999999,
+      "currents": [
+        0.00022,
+        0.00022,
+        0.00010999999999999999,
+        -0.00021999999999999998,
+        -2.710505431213761e-20,
+        0,
+        2.710505431213761e-20,
+        0.00010999999999999999
+      ],
+      "elapsedMs": 79
+    },
+    {
+      "t": 0.01000999999999976,
+      "vin": 3.3,
+      "vout": 2.0866046429797653,
+      "currents": [
+        0.00012133953570202344,
+        0.00012133953570202344,
+        0.00012133953570209188,
+        -0.0001223141453093879,
+        1.3742262536253769e-17,
+        -2.710505431213761e-20,
+        -1.3715157481941631e-17
+      ],
+      "elapsedMs": 638
+    },
+    {
+      "t": 0.01000999999999976,
+      "vin": 3.3,
+      "vout": 2.0866046429797653,
+      "currents": [
+        0.00012133953570202344,
+        0.00012133953570202344,
+        0.00012133953570209188,
+        -0.00012503487502463217,
+        7.890281310263259e-17,
+        0,
+        -7.890281310263259e-17
+      ],
+      "elapsedMs": 620
+    },
+    {
+      "t": 0.010004999999999677,
+      "vin": 3.3,
+      "vout": 2.086301294102882,
+      "currents": [
+        0.00012136987058971181,
+        0.00012136987058971181,
+        0.00012136987058974924,
+        -0.00012222244021409256,
+        1.2853216754815655e-16,
+        2.710505431213761e-20,
+        -1.285592726024687e-16
+      ],
+      "elapsedMs": 1237
+    },
+    {
+      "t": 0.01000999999999976,
+      "vin": 3.3,
+      "vout": 2.52783931826,
+      "currents": [
+        0.00007721606817399999,
+        0.000077216068174,
+        0.00007721606817412408,
+        -0.00007783627428781248,
+        4.358492733391728e-17,
+        -1.3552527156068805e-20,
+        -4.357137480676121e-17
+      ],
+      "elapsedMs": 638
+    },
+    {
+      "t": 0.0010000000000000152,
+      "vin": 3.3,
+      "vout": 1.1409966709314017,
+      "currents": [
+        0.021590033290685984,
+        0.021590033290685984,
+        0.021590033290685984,
+        -0.021521367693914332,
+        3.469446951953614e-18,
+        -3.469446951953614e-18,
+        0
+      ],
+      "elapsedMs": 638
+    },
+    {
+      "t": 0.00010099999999999981,
+      "vin": 3.3,
+      "vout": 0.3848316326987783,
+      "currents": [
+        0.00029151683673012217,
+        0.00029151683673012217,
+        0.0002915168367301222,
+        -0.0002915168367301222,
+        5.421010862427522e-20,
+        0,
+        -5.421010862427522e-20
+      ],
+      "elapsedMs": 99
+    },
+    {
+      "t": 0.00010099999999999981,
+      "vin": 3.3,
+      "vout": 0.5825501897392273,
+      "currents": [
+        0.00027174498102607725,
+        0.00027174498102607725,
+        0.00027174498102607736,
+        -0.00027174498102607736,
+        1.0842021724855044e-19,
+        0,
+        -1.0842021724855044e-19
+      ],
+      "elapsedMs": 81
+    },
+    {
+      "t": 0.00010099999999999981,
+      "vin": 3.3,
+      "vout": 0.5825501897392273,
+      "currents": [
+        0.00027174498102607725,
+        0.00027174498102607725,
+        0.00027174498102607736,
+        -0.00027174498102607736,
+        1.0842021724855044e-19,
+        0,
+        -1.0842021724855044e-19
+      ],
+      "elapsedMs": 98
+    },
+    {
+      "t": 0.00010099999999999981,
+      "vin": -3.3,
+      "vout": -3.298285647180719,
+      "currents": [
+        -1.7143528192810516e-7,
+        -1.7143528192806733e-7,
+        -1.7143528192808883e-7,
+        1.7143528192808883e-7,
+        1.6331854014246978e-20,
+        -3.782531505082485e-20,
+        2.149346103657787e-20
+      ],
+      "elapsedMs": 79
+    },
+    {
+      "t": 5.000000000000002e-7,
+      "vin": 3.3,
+      "vout": 0.06874999999999998,
+      "currents": [
+        0.0006875,
+        0.0006875,
+        0,
+        0.0006875,
+        0.0006874999999999997,
+        0.0006874999999999997,
+        0.0006874999999999997,
+        0,
+        0,
+        -0.0006874999999999997,
+        -0.0006874999999999997,
+        -0.0006874999999999997,
+        -2.168404344971009e-19,
+        0,
+        0
+      ],
+      "elapsedMs": 81
+    },
+    {
+      "t": 0.000002404999999999982,
+      "vin": 3.3,
+      "vout": 3.0157754673782113,
+      "currents": [
+        0.00006047330481314653,
+        0.000060473304813146486,
+        0.000060473301797370205,
+        2.959428722589842e-12,
+        2.9594311543817517e-12,
+        3.0157754673782113e-12,
+        2.9594311543817517e-12,
+        0,
+        0,
+        -0.0000724614565145233,
+        -0.0000724614565145233,
+        -2.9594311543817517e-12,
+        2.439454888092385e-18,
+        -1.3552527156068805e-20,
+        0
+      ],
+      "elapsedMs": 318
+    }
+  ],
+  "startupDiagnostics": []
+}

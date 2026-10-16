@@ -1,0 +1,193 @@
+{
+  "version": "0.5",
+  "at": "2026-10-15T12:20:00.725Z",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "checks": [
+    {
+      "name": "switch stimulus continues same run",
+      "pass": true,
+      "detail": {
+        "running": true,
+        "time": 0.03982000000000152,
+        "error": "",
+        "needsReset": false,
+        "message": "输入已切换 · 正在观察本次运行中的激励",
+        "elements": 19,
+        "scopes": 1,
+        "runId": "dca4ef8d-fcfd-42f2-a4d8-ed05fdc12a77",
+        "designRevision": 0,
+        "stimulusCount": 1
+      }
+    },
+    {
+      "name": "pan keeps time and run identity",
+      "pass": true,
+      "detail": {
+        "running": true,
+        "time": 0.2646800000001239,
+        "error": "",
+        "needsReset": false,
+        "message": "输入已切换 · 正在观察本次运行中的激励",
+        "elements": 19,
+        "scopes": 1,
+        "runId": "dca4ef8d-fcfd-42f2-a4d8-ed05fdc12a77",
+        "designRevision": 0,
+        "stimulusCount": 1
+      }
+    },
+    {
+      "name": "text moved without resetting simulation",
+      "pass": true,
+      "detail": {
+        "running": true,
+        "time": 0.49018000000034945,
+        "error": "",
+        "needsReset": false,
+        "message": "输入已切换 · 正在观察本次运行中的激励",
+        "elements": 19,
+        "scopes": 1,
+        "runId": "dca4ef8d-fcfd-42f2-a4d8-ed05fdc12a77",
+        "designRevision": 0,
+        "stimulusCount": 1
+      }
+    },
+    {
+      "name": "layout undo preserves running state and time",
+      "pass": true,
+      "detail": {
+        "running": true,
+        "time": 0.5195900000002701,
+        "error": "",
+        "needsReset": false,
+        "message": "输入已切换 · 正在观察本次运行中的激励",
+        "elements": 19,
+        "scopes": 1,
+        "runId": "dca4ef8d-fcfd-42f2-a4d8-ed05fdc12a77",
+        "designRevision": 0,
+        "stimulusCount": 1
+      }
+    },
+    {
+      "name": "layout redo preserves running state",
+      "pass": true,
+      "detail": {
+        "running": true,
+        "time": 0.539820000000178,
+        "error": "",
+        "needsReset": false,
+        "message": "输入已切换 · 正在观察本次运行中的激励",
+        "elements": 19,
+        "scopes": 1,
+        "runId": "dca4ef8d-fcfd-42f2-a4d8-ed05fdc12a77",
+        "designRevision": 0,
+        "stimulusCount": 1
+      }
+    },
+    {
+      "name": "value editing pauses and invalidates old run",
+      "pass": true,
+      "detail": {
+        "running": false,
+        "time": 0.6966999999994641,
+        "error": "",
+        "needsReset": true,
+        "message": "电气设计已修改 · 请重新开始",
+        "elements": 19,
+        "scopes": 1,
+        "runId": "dca4ef8d-fcfd-42f2-a4d8-ed05fdc12a77",
+        "designRevision": 1,
+        "stimulusCount": 1
+      }
+    },
+    {
+      "name": "restart uses new resistance and saved switch",
+      "pass": true,
+      "detail": {
+        "running": true,
+        "time": 0.010429999999999743,
+        "error": "",
+        "needsReset": false,
+        "message": "已按初始条件重新开始",
+        "elements": 19,
+        "scopes": 1,
+        "runId": "02abca6d-7afa-4023-821e-c14895aaca68",
+        "designRevision": 1,
+        "stimulusCount": 0
+      }
+    },
+    {
+      "name": "reopen pauses with current switch and parameter",
+      "pass": true,
+      "detail": {
+        "running": false,
+        "time": 0,
+        "error": "",
+        "needsReset": false,
+        "message": "已载入设计 · 从显式初始条件开始",
+        "elements": 19,
+        "scopes": 1,
+        "runId": "18eb3a8a-53fd-4d64-bb0c-e9933646f4da",
+        "designRevision": 0,
+        "stimulusCount": 0
+      }
+    },
+    {
+      "name": "storage failure preserves memory editing",
+      "pass": true
+    },
+    {
+      "name": "storage recovers without data loss",
+      "pass": true
+    },
+    {
+      "name": "RC layout undo preserves charge and exact time",
+      "pass": true,
+      "detail": {
+        "before": {
+          "t": 0.005033333333333316,
+          "v": 1.3017801160669031
+        },
+        "after": {
+          "t": 0.005033333333333316,
+          "v": 1.3017801160669031
+        }
+      }
+    },
+    {
+      "name": "RC layout redo preserves charge",
+      "pass": true,
+      "detail": {
+        "before": {
+          "t": 0.005033333333333316,
+          "v": 1.3017801160669031
+        },
+        "after": {
+          "t": 0.005033333333333316,
+          "v": 1.3017801160669031
+        }
+      }
+    },
+    {
+      "name": "concurrent writer conflict protects local edit",
+      "pass": true
+    },
+    {
+      "name": "conflict can be saved as independent project",
+      "pass": true
+    },
+    {
+      "name": "desktop layout 1280",
+      "pass": true
+    },
+    {
+      "name": "desktop layout 1440",
+      "pass": true
+    },
+    {
+      "name": "no uncaught page errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "pageErrors": []
+}
